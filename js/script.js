@@ -6,6 +6,8 @@ let caracteresHex = "0123456789ABCDEF";
 
 let modoHsl = false;
 let modoHex = false;
+botonHsl.setAttribute("aria-pressed", false);
+botonHex.setAttribute("aria-pressed", false);
 
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
@@ -34,11 +36,15 @@ function pintarBotonesHex () {
 botonHsl.addEventListener("click", function() {
   modoHsl = true;
   modoHex = false;
+  botonHsl.setAttribute("aria-pressed", true);
+  botonHex.setAttribute("aria-pressed", false);
 } ) 
 
 botonHex.addEventListener("click", function() {
-  modoHex = true;
   modoHsl = false;
+  modoHex = true;
+  botonHsl.setAttribute("aria-pressed", false);
+  botonHex.setAttribute("aria-pressed", true);
 })
 
 botonGenerar.addEventListener("click", function() {
