@@ -5,7 +5,17 @@
 }
 
 .btn-cantidad {
-    width: 10%;
-    border: 1px solid black;
+  width: 10%;
+  border: 1px solid black;
 
+}
+
+#btn-generar {
+  width: 10%;
+  border: 1px solid black;
+}
+
+.btn-formato {
+  width: 10%;
+  border: 1px solid black;
 }

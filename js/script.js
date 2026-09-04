@@ -2,8 +2,13 @@ let botonConColor = document.getElementsByClassName("btn-generado");
 const botonGenerar = document.getElementById("btn-generar");
 const botonHsl = document.getElementById("btn-hsl");
 const botonHex = document.getElementById("btn-hex");
-let caracteresHex = "0123456789ABCDEF";
+const caracteresHex = "0123456789ABCDEF";
+const boton6 = document.getElementById("btn-6");
+const boton8 = document.getElementById("btn-8");
+const boton9 = document.getElementById("btn-9");
+const renderBotones = document.getElementById("area-botones");
 
+let cantidadDeColores = 9;
 let modoHsl = false;
 let modoHex = false;
 botonHsl.setAttribute("aria-pressed", false);
@@ -69,6 +74,27 @@ botonGenerar.addEventListener("click", function() {
   }
 );
 
+function cantidadRender (cantidad) {
+  cantidadDeColores = cantidad;
+    for (let i = 0; i < renderBotones.children.length; i ++) {
+      let boton = renderBotones.children[i];
 
+      if (i < cantidad) {
+        boton.style.display = "inline-block";
+      } else {
+        boton.style.display = "none";
+      }
+    }
+}
 
+boton6.addEventListener("click", function(){
+  cantidadRender(6);
+});
 
+boton8.addEventListener("click", function(){
+  cantidadRender(8);
+});
+
+boton9.addEventListener("click", function(){
+  cantidadRender(9);
+});
