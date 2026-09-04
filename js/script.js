@@ -41,38 +41,30 @@ function pintarBotonesHex () {
 botonHsl.addEventListener("click", function() {
   modoHsl = true;
   modoHex = false;
+  botonHsl.style.backgroundColor = "lightblue";
+  botonHex.style.backgroundColor = "";
   botonHsl.setAttribute("aria-pressed", true);
   botonHex.setAttribute("aria-pressed", false);
-
-  if (modoHsl) {
-    botonHsl.style.backgroundColor = "lightblue";
-    botonHex.style.backgroundColor = "";
-  }
-} ) 
+})
 
 botonHex.addEventListener("click", function() {
   modoHsl = false;
   modoHex = true;
+  botonHex.style.backgroundColor = "lightblue";
+  botonHsl.style.backgroundColor = "";
   botonHsl.setAttribute("aria-pressed", false);
   botonHex.setAttribute("aria-pressed", true);
-
-  if (modoHex) {
-    botonHex.style.backgroundColor = "lightblue";
-    botonHsl.style.backgroundColor = "";
-  }
 })
-
 
 botonGenerar.addEventListener("click", function() {
   if (modoHsl) {
     pintarBotonesHsl();
-    console.log("Pintando en HSL");
+    console.log("Pintando " + cantidadDeColores + " Colores en HSL");
   } else if (modoHex) {
     pintarBotonesHex();
-    console.log("Pintando en Hex");
+    console.log("Pintando " + cantidadDeColores + " Colores en Hex");
   }
-  }
-);
+  });
 
 function cantidadRender (cantidad) {
   cantidadDeColores = cantidad;
@@ -89,12 +81,21 @@ function cantidadRender (cantidad) {
 
 boton6.addEventListener("click", function(){
   cantidadRender(6);
+  boton6.style.backgroundColor = "lightblue";
+  boton8.style.backgroundColor = "";
+  boton9.style.backgroundColor = "";
 });
 
 boton8.addEventListener("click", function(){
   cantidadRender(8);
+  boton6.style.backgroundColor = "";
+  boton8.style.backgroundColor = "lightblue";
+  boton9.style.backgroundColor = "";
 });
 
-boton9.addEventListener("click", function(){
+boton9.addEventListener("click", function() {
   cantidadRender(9);
-});
+  boton6.style.backgroundColor = "";
+  boton8.style.backgroundColor = "";
+  boton9.style.backgroundColor = "lightblue";
+})
