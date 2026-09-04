@@ -38,6 +38,11 @@ botonHsl.addEventListener("click", function() {
   modoHex = false;
   botonHsl.setAttribute("aria-pressed", true);
   botonHex.setAttribute("aria-pressed", false);
+
+  if (modoHsl) {
+    botonHsl.style.backgroundColor = "lightblue";
+    botonHex.style.backgroundColor = "";
+  }
 } ) 
 
 botonHex.addEventListener("click", function() {
@@ -45,7 +50,13 @@ botonHex.addEventListener("click", function() {
   modoHex = true;
   botonHsl.setAttribute("aria-pressed", false);
   botonHex.setAttribute("aria-pressed", true);
+
+  if (modoHex) {
+    botonHex.style.backgroundColor = "lightblue";
+    botonHsl.style.backgroundColor = "";
+  }
 })
+
 
 botonGenerar.addEventListener("click", function() {
   if (modoHsl) {
