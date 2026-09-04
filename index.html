@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Paleta de Colores Aleatoria</title>
+</head>
+
+<body>
+  
+  <header>
+    <h1>paleTTe</h1>
+    <p>Generador de colores aleatorio</p>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Generar paleta</h2>
+        <p>1. Elige el formato de color que prefieras</p>
+        <p>2. Clickea el boton "Generar"
+        y se establecerá una paleta de colores aleatoria</p>
+        <p>3. Haz click sobre el color y ¡Guarda el que más te guste!</p>
+      <button id="btn-generar" type="button">Generar</button>
+      <div id="area-botones" aria-live="polite">
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+        <button class="btn-generado" type="button"></button>
+      </div>
+      <h3>Elige el formato de tu color</h3>
+        <button id="btn-hsl" class="btn-formato" type="button">HSL</button>
+        <button id="btn-hex" class="btn-formato" type="button">HEX</button>
+      <aside>
+        <p>¡Puedes descubrir 6, 8 o 9 colores cada vez!</p>
+        <p>Fija tu preferencia aquí 👇</p>
+        <button id="btn-6" class="btn-cantidad" type="button">6</button>
+        <button id="btn-8" class="btn-cantidad" type="button">8</button>
+        <button id="btn-9" class="btn-cantidad" type="button">9</button>
+      </aside>
+    </section>
+  </main>
+  
+  <script src="/js/script.js"></script>
+</body>
+</html>
