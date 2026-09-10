@@ -64,7 +64,7 @@ botonGenerar.addEventListener("click", function() {
     pintarBotonesHex();
     console.log("Pintando " + cantidadDeColores + " Colores en Hex");
   }
-  });
+})
 
 function cantidadRender (cantidad) {
   cantidadDeColores = cantidad;
