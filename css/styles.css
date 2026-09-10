@@ -1,6 +1,6 @@
-@import "/css/base/reset.css";
-@import "/css/base/variables.css";
-@import "/css/base/typography.css";
-@import "/css/layout/grid.css";
-@import "/css/layout/header.css";
-@import "/css/components/buttons.css";
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./base/typography.css";
+@import "./layout/grid.css";
+@import "./layout/header.css";
+@import "./components/buttons.css";
