@@ -9,19 +9,23 @@
 
 <body>
   
-  <header>
-    <h1>paleTTe</h1>
-    <p>Generador de colores aleatorio</p>
+  <header class="header">
+    <div class="header-contenido">
+      <h1 class="titulo-principal">paleTTe</h1>
+      <p class="descripcion">Generador de colores aleatorio</p>
+    </div>
   </header>
   
-  <main>
-    <section>
-      <h2>Generar paleta</h2>
-        <p>1. Elige el formato de color que prefieras</p>
-        <p>2. Clickea el boton "Generar"
-        y se establecerá una paleta de colores aleatoria</p>
-        <p>3. Haz click sobre el color y ¡Guarda el que más te guste!</p>
-      <button id="btn-generar" type="button">Generar</button>
+  <main class="contenedor">
+    <section class="paleta">
+      <h2 class="titulo-secundario">Generar paleta</h2>
+        <div class="instrucciones">
+          <p>1. Elige el formato de color que prefieras</p>
+          <p>2. Clickea el boton "Generar"
+          y se establecerá una paleta de colores aleatoria</p>
+          <p>3. Haz click sobre el color y ¡Guarda el que más te guste!</p>
+        </div>
+        <button class="btn-generar" type="button">Generar</button>
       <div id="area-botones" aria-live="polite">
         <button class="btn-generado" type="button"></button>
         <button class="btn-generado" type="button"></button>
@@ -33,19 +37,24 @@
         <button class="btn-generado" type="button"></button>
         <button class="btn-generado" type="button"></button>
       </div>
-      <h3>Elige el formato de tu color</h3>
-        <button id="btn-hsl" class="btn-formato" type="button">HSL</button>
-        <button id="btn-hex" class="btn-formato" type="button">HEX</button>
       <aside>
-        <p>¡Puedes descubrir 6, 8 o 9 colores cada vez!</p>
-        <p>Fija tu preferencia aquí 👇</p>
-        <button id="btn-6" class="btn-cantidad" type="button">6</button>
-        <button id="btn-8" class="btn-cantidad" type="button">8</button>
-        <button id="btn-9" class="btn-cantidad" type="button">9</button>
+        <div class="formato">
+          <h3 class="titulo-terciario">Elige el formato de tu color</h3>
+            <button id="btn-hsl" class="btn-formato" type="button">HSL</button>
+            <button id="btn-hex" class="btn-formato" type="button">HEX</button>
+        </div>
+        <div class="cantidad-colores">
+          <h3 class="titulo-terciario">¡Puedes descubrir 6, 8 o 9 colores cada vez!</h3>
+          <p>Fija tu preferencia aquí 👇</p>
+          <button id="btn-6" class="btn-cantidad" type="button">6</button>
+          <button id="btn-8" class="btn-cantidad" type="button">8</button>
+          <button id="btn-9" class="btn-cantidad" type="button">9</button>
+        </div>
       </aside>
     </section>
   </main>
-  <footer>
+  <footer class="footer">
+    <p>Palette &copy; 2026 | David Irigoyen</p>
     <p>
       <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"

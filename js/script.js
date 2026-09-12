@@ -1,5 +1,5 @@
 let botonConColor = document.getElementsByClassName("btn-generado");
-const botonGenerar = document.getElementById("btn-generar");
+const botonGenerar = document.querySelector(".btn-generar");
 const botonHsl = document.getElementById("btn-hsl");
 const botonHex = document.getElementById("btn-hex");
 const caracteresHex = "0123456789ABCDEF";
