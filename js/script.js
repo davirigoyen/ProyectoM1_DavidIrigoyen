@@ -6,7 +6,7 @@ const caracteresHex = "0123456789ABCDEF";
 const boton6 = document.getElementById("btn-6");
 const boton8 = document.getElementById("btn-8");
 const boton9 = document.getElementById("btn-9");
-const renderBotones = document.getElementById("area-botones");
+const renderBotones = document.querySelector(".area-botones");
 
 let cantidadDeColores = 9;
 let modoHsl = false;
