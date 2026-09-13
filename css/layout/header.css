@@ -29,6 +29,11 @@
   /* margin-bottom usando rem */
   color: var(--color-primario-oscuro);
   /* color usando variable HSL */
+  animation-name: girarRuleta;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+  animation-iteration-count: 3;
 }
 
 .descripcion {

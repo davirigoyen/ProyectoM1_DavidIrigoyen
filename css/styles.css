@@ -18,3 +18,11 @@ body {
   background-color: var(--color-primario-muy-claro);
 }
 
+@keyframes girarRuleta {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
