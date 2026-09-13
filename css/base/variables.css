@@ -1,0 +1,18 @@
+:root {
+  --color-primario: hsl(220, 80%, 50%);
+  
+  --color-primario-claro: hsl(220, 80%, 75%);
+
+  --color-primario-muy-claro:  hsl(220, 80%, 90%);
+
+  --color-primario-oscuro: hsl(220, 80%, 30%);
+  
+  --color-texto: hsl(220, 50%, 20%);
+  --color-fondo: hsl(220, 95%, 90%);
+  
+  --espaciado-xs: 0.25rem;
+  --espaciado-sm: 0.5rem;
+  --espaciado-md: 1rem;
+  --espaciado-lg: 2rem;
+  --espaciado-xl: 4rem;
+}

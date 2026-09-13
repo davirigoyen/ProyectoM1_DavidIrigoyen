@@ -2,24 +2,31 @@ button {
   cursor: pointer;
 }
 
+.area-botones {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 85rem;
+  margin: 0 auto;
+
+}
+
 .btn-generado {
-  width: 10%;
-  height: 10em;
-  border: 1px solid black;
+  min-width: 10%;
+  min-height: 10rem;
+  margin: var(--espaciado-xs);
+  border: 1px solid var(--color-primario-oscuro);
 }
 
 .btn-cantidad {
-  width: 10%;
-  border: 1px solid black;
+  border: 1px solid var(--color-primario-oscuro);
 
 }
 
 #btn-generar {
-  width: 10%;
-  border: 1px solid black;
+  border: 1px solid var(--color-primario-oscuro);
 }
 
 .btn-formato {
-  width: 10%;
-  border: 1px solid black;
+  border: 1px solid var(--color-primario-oscuro);
 }

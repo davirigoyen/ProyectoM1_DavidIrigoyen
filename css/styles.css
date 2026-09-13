@@ -1,6 +1,20 @@
 @import "./base/normalize.css";
-/*@import "./base/variables.css";
-@import "./base/typography.css";
+@import "./base/variables.css";
+/*@import "./base/typography.css";
 @import "./layout/grid.css";
 @import "./layout/header.css";*/
 @import "./components/buttons.css";
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: var(--espaciado-lg);
+  color: var(--color-primario-oscuro);
+  background-color: var(--color-primario-muy-claro);
+}
+
