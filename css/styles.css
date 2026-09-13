@@ -13,7 +13,7 @@ html {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
-  line-height: var(--espaciado-lg);
+  line-height: var(--espaciado-mdx);
   color: var(--color-primario-oscuro);
   background-color: var(--color-primario-muy-claro);
 }
