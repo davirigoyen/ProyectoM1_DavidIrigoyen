@@ -32,7 +32,7 @@
   animation-name: girarRuleta;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
-  animation-delay: 1s;
+  animation-delay: 0.65s;
   animation-iteration-count: 3;
 }
 
