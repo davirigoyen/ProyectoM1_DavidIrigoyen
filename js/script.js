@@ -6,12 +6,12 @@ const caracteresHex = "0123456789ABCDEF";
 const boton6 = document.getElementById("btn-6");
 const boton8 = document.getElementById("btn-8");
 const boton9 = document.getElementById("btn-9");
-const renderBotones = document.querySelector(".area-botones");
+let renderBotones = document.querySelector(".area-botones");
 
 let cantidadDeColores = 9;
-let modoHsl = false;
+let modoHsl = true;
 let modoHex = false;
-botonHsl.setAttribute("aria-pressed", false);
+botonHsl.setAttribute("aria-pressed", true);
 botonHex.setAttribute("aria-pressed", false);
 
 function pintarBotonesHsl () {
@@ -99,3 +99,6 @@ boton9.addEventListener("click", function() {
   boton8.style.backgroundColor = "";
   boton9.style.backgroundColor = "lightblue";
 })
+
+pintarBotonesHsl();
+botonHsl.style.backgroundColor = "lightblue";
