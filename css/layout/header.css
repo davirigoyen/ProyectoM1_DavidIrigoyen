@@ -14,7 +14,7 @@
 }
 
 .titulo-principal {
-  font-size: var(espacio-xl);
+  font-size: var(--espaciado-xl);
   padding: var(--espaciado-md);
   color: var(--color-primario-oscuro);
   animation-name: girarRuleta;
