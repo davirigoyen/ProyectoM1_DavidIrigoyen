@@ -16,6 +16,9 @@ botonHex.setAttribute("aria-pressed", false);
 
 let colorPrimarioClaro = getComputedStyle(document.documentElement).getPropertyValue("--color-primario-claro").trim();
 
+const toast = document.getElementById("toast");
+
+
 
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
