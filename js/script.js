@@ -28,6 +28,7 @@ function pintarBotonesHsl () {
     let color = "hsl(" + hue + ", " + sat + "%, " + light + "%)";
     botonFinalHsl.style.backgroundColor = color;
     botonFinalHsl.setAttribute("aria-label", "Color " + color);
+    botonFinalHsl.setAttribute("data-color", color);
 }
 };
 
@@ -41,6 +42,7 @@ function pintarBotonesHex () {
       }
     botonFinalHex.style.backgroundColor = colorHex;
     botonFinalHex.setAttribute("aria-label", "Color " + colorHex);
+    botonFinalHex.setAttribute("data-color", colorHex);
   }
 }
 
@@ -127,7 +129,7 @@ function mostrarToast(mensaje) {
 
 for (let boton of botonConColor) {
   boton.addEventListener("click", function() {
-    let colorDelBoton = boton.style.backgroundColor;
+    let colorDelBoton = boton.getAttribute("data-color");
     navigator.clipboard.writeText(colorDelBoton).then(function() {
       mostrarToast("¡Color copiado! " + colorDelBoton);
     });
