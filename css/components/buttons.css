@@ -23,7 +23,9 @@ button {
 
 }
 
-#btn-generar {
+.btn-generar {
+  width: 9rem;
+  height: 3rem;
   border: 1px solid var(--color-primario-oscuro);
 }
 

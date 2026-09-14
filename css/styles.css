@@ -26,3 +26,19 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@keyframes animacionBoton {
+  0% {
+    background-color: var(--color-primario--muy-claro);
+  }
+  50% {
+    background-color: var(--color-primario-claro);
+  }
+  100% {
+    background-color: var(--color-primario-muy-claro);
+  }
+}
+
+.animar {
+  animation: animacionBoton 0.3s ease-in-out;
+}

@@ -57,6 +57,7 @@ botonHex.addEventListener("click", function() {
 })
 
 botonGenerar.addEventListener("click", function() {
+  animarPulso(botonGenerar);
   if (modoHsl) {
     pintarBotonesHsl();
     console.log("Pintando " + cantidadDeColores + " Colores en HSL");
@@ -102,3 +103,13 @@ boton9.addEventListener("click", function() {
 
 pintarBotonesHsl();
 botonHsl.style.backgroundColor = "lightblue";
+
+function animarPulso(elemento) {
+  elemento.classList.add("animar");
+}
+
+document.addEventListener("animationend", function(evento) {
+  if (evento.animationName === "animacionBoton") {
+    evento.target.classList.remove("animar");
+  }
+});
