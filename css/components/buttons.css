@@ -14,10 +14,8 @@ button {
 
 
 .btn-generado {
-  min-width: clamp(5rem, 9vw, 10rem);
-  height: 10rem;
-  min-height: 8rem;
-  max-height: 11rem;
+  min-width: clamp(6rem, 15vw, 8rem);
+  min-height: clamp(7rem, 22vh, 10rem);
   border: 1px solid var(--color-primario-oscuro);
   border-radius: 10px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
