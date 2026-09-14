@@ -42,7 +42,6 @@ function pintarBotonesHex () {
 }
 
 botonHsl.addEventListener("click", function() {
-  animarPulso(botonHsl);
   modoHsl = true;
   modoHex = false;
   botonHsl.style.backgroundColor = colorPrimarioClaro;
@@ -52,7 +51,6 @@ botonHsl.addEventListener("click", function() {
 })
 
 botonHex.addEventListener("click", function() {
-  animarPulso(botonHex);
   modoHsl = false;
   modoHex = true;
   botonHex.style.backgroundColor = colorPrimarioClaro;
@@ -87,7 +85,6 @@ function cantidadRender (cantidad) {
 
 boton6.addEventListener("click", function(){
   cantidadRender(6);
-  animarPulso(boton6);
   boton6.style.backgroundColor = colorPrimarioClaro;
   boton8.style.backgroundColor = "";
   boton9.style.backgroundColor = "";
@@ -95,7 +92,6 @@ boton6.addEventListener("click", function(){
 
 boton8.addEventListener("click", function(){
   cantidadRender(8);
-  animarPulso(boton8);
   boton6.style.backgroundColor = "";
   boton8.style.backgroundColor = colorPrimarioClaro;
   boton9.style.backgroundColor = "";
@@ -103,7 +99,6 @@ boton8.addEventListener("click", function(){
 
 boton9.addEventListener("click", function() {
   cantidadRender(9);
-  animarPulso(boton9);
   boton6.style.backgroundColor = "";
   boton8.style.backgroundColor = "";
   boton9.style.backgroundColor = colorPrimarioClaro;
