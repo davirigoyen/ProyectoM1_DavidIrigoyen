@@ -8,7 +8,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 75rem;
-  justify-content: center;
   margin: 1rem;
-};
+}
 
+.titulo-secundario {
+  text-align: center;
+}
+
+.instrucciones {
+  text-align: justify;
+}
