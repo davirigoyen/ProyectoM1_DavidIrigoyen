@@ -14,7 +14,6 @@ button {
 
 
 .btn-generado {
-  --ancho-boton: clamp(7rem, 10vw, 10rem);
   width: var(--ancho-boton);
   min-height: calc(var(--ancho-boton) * 1.2);
   border: 1px solid var(--color-primario-oscuro);
@@ -24,8 +23,8 @@ button {
 }
 
 .btn-cantidad {
-  width: 4rem;
-  height: var(--espaciado-mdx);
+  width: var(--ancho-boton-md);
+  height: calc(var(--ancho-boton-md) * 0.2);
   margin: var(--espaciado-md);
   border: none;
   border-radius: 15px;
@@ -34,8 +33,8 @@ button {
 }
 
 .btn-generar {
-  width: 9rem;
-  height: 3rem;
+  width: calc(var(--ancho-boton) * 1.1);
+  height: calc(var(--ancho-boton) * 0.3);
   border: 1px solid var(--color-primario-oscuro);
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario);
@@ -44,8 +43,8 @@ button {
 
 
 .btn-formato {
-  width: 4rem;
-  height: 1.5rem;
+  width: var(--ancho-boton-md);
+  height: calc(var(--ancho-boton-md) * 0.2);
   margin: 1rem;
   border: 1px solid var(--color-primario-oscuro);
   border: none;
