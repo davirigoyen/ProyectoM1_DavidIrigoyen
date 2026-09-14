@@ -116,6 +116,23 @@ function animarPulso(elemento) {
   elemento.classList.add("animar");
 }
 
+function mostrarToast(mensaje) {
+  toast.textContent = mensaje;
+  toast.classList.add("mostrar");
+
+  setTimeout(function() {
+    toast.classList.remove("mostrar");
+  }, 2000);
+}
+
+for (let boton of botonConColor) {
+  boton.addEventListener("click", function() {
+    let colorDelBoton = boton.style.backgroundColor;
+    navigator.clipboard.writeText(colorDelBoton).then(function() {
+      mostrarToast("¡Color copiado! " + colorDelBoton);
+    });
+  });
+}
 
 document.addEventListener("animationend", function(evento) {
   if (evento.animationName === "animacionBoton") {
