@@ -122,7 +122,7 @@ function mostrarToast(mensaje) {
 
   setTimeout(function() {
     toast.classList.remove("mostrar");
-  }, 2000);
+  }, 1600);
 }
 
 for (let boton of botonConColor) {
