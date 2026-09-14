@@ -45,6 +45,7 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 5rem;
+  font-style: italic;
 }
 
 .aside {
