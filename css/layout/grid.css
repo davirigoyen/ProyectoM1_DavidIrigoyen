@@ -40,7 +40,7 @@
 .aside {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 75rem;
+  max-width: 100rem;
   align-items: start;
   justify-content: center;
   text-align: center;
