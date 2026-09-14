@@ -1,7 +1,7 @@
 .contenedor {
-  max-width: 75rem;
+  width: 100%;
+  max-width: 100rem;
   margin: 0 auto;
-  padding: 1.5rem;
 }
 
 .section-generar {
