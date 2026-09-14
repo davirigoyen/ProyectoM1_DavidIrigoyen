@@ -3,6 +3,15 @@ button {
   background-color: var(--color-primario-muy-claro);
 }
 
+.btn-generar {
+  width: calc(var(--ancho-boton) * 1.1);
+  height: calc(var(--ancho-boton) * 0.3);
+  border: 1px solid var(--color-primario-oscuro);
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px var(--color-primario);
+  transition: 1.5s;
+}
+
 .area-botones {
   display: flex;
   justify-content: space-evenly;
@@ -22,30 +31,32 @@ button {
   transition: 1s;
 }
 
-.btn-cantidad {
+.botones-formato {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-boton);
+  margin-top: var(--gap-boton);
+}
+
+.botones-cantidad {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-boton);
+  margin-top: var(--gap-boton);
+}
+
+.btn-formato {
   width: var(--ancho-boton-md);
   height: calc(var(--ancho-boton-md) * 0.2);
-  margin: var(--margin-boton);
   border: none;
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
   transition: 1.5s;
 }
 
-.btn-generar {
-  width: calc(var(--ancho-boton) * 1.1);
-  height: calc(var(--ancho-boton) * 0.3);
-  border: 1px solid var(--color-primario-oscuro);
-  border-radius: 15px;
-  box-shadow: 4px 4px 8px var(--color-primario);
-  transition: 1.5s;
-}
-
-
-.btn-formato {
+.btn-cantidad {
   width: var(--ancho-boton-md);
   height: calc(var(--ancho-boton-md) * 0.2);
-  margin: var(--margin-boton);
   border: none;
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
