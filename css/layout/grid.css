@@ -34,7 +34,7 @@
 }
 
 .area-botones {
-  padding: 1rem;
+  padding: var(--espaciado-md);
 }
 
 .aside {
@@ -44,14 +44,14 @@
   align-items: start;
   justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: var(--espaciado-md);
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 1rem;
+  padding: var(--espaciado-md);
 }
 
 .css-validado {
