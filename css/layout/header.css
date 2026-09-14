@@ -1,9 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
-  height: 10rem;
   background-color: var(--color-primario-claro);
-  padding: 0.75rem;
   box-shadow: 4px 4px 8px var(--color-primario);
 }
 
@@ -12,13 +10,12 @@
   flex-direction: column;
   max-width: 50rem;
   margin: 0 auto;
-  padding: 0.75rem;
   text-align: center;
 }
 
 .titulo-principal {
   font-size: 3rem;
-  margin-bottom: 2.5rem;
+  padding: var(--espaciado-md);
   color: var(--color-primario-oscuro);
   animation-name: girarRuleta;
   animation-duration: 2s;
@@ -30,5 +27,4 @@
 .descripcion {
   font-size: 1.25rem;
   color: var(--color-primario);
-  margin-top: 1rem;
 }

@@ -9,7 +9,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
   max-width: 75rem;
-  margin: var(--espaciado-mdx);
+  padding: var(--espaciado-mdx);
   
 }
 
@@ -34,6 +34,10 @@
   padding-left: 5rem;
 }
 
+.area-botones {
+  padding: 1rem;
+}
+
 .aside {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -41,6 +45,7 @@
   align-items: start;
   justify-content: center;
   text-align: center;
+  padding: 1rem;
 }
 
 .footer {
