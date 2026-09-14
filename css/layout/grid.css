@@ -24,3 +24,13 @@
   align-items: left;
   justify-content: center;
 }
+
+.aside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 75rem;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
