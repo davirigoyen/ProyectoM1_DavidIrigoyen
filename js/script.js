@@ -106,6 +106,8 @@ boton9.addEventListener("click", function() {
 
 pintarBotonesHsl();
 botonHsl.style.backgroundColor = colorPrimarioClaro;
+boton9.style.backgroundColor = colorPrimarioClaro;
+
 
 function animarPulso(elemento) {
   elemento.classList.add("animar");
