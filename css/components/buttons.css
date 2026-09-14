@@ -23,8 +23,8 @@ button {
 
 .btn-cantidad {
   width: 4rem;
-  height: 1.5rem;
-  margin: 1rem;
+  height: var(--espaciado-mdx);
+  margin: var(--espaciado-md);
   border: none;
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
