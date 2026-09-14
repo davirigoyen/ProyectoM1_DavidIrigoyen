@@ -12,7 +12,7 @@
 .header-contenido {
   display: flex;
   flex-direction: column;
-  max-width: 75rem;
+  max-width: 50rem;
   /* max-width para limitar ancho */
   margin: 0 auto;
   /* margin: 0 auto para centrar */
@@ -24,11 +24,8 @@
 
 .titulo-principal {
   font-size: 3rem;
-  /* font-size usando rem (2.5rem - 3rem) */
-  margin-bottom: 0.75rem;
-  /* margin-bottom usando rem */
+  margin-bottom: 2.5rem;
   color: var(--color-primario-oscuro);
-  /* color usando variable HSL */
   animation-name: girarRuleta;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
@@ -37,8 +34,7 @@
 }
 
 .descripcion {
-  font-size: 1.5rem;
-  /* font-size usando rem */
+  font-size: 1.25rem;
   color: var(--color-primario);
-  /* color más claro para contraste */
+  margin-top: 1rem;
 }

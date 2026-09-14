@@ -3,3 +3,12 @@
   margin: 0 auto;
   padding: 1.5rem;
 }
+
+.generar-paleta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 75rem;
+  justify-content: center;
+  margin: 1rem;
+};
+
