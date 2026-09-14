@@ -19,6 +19,9 @@ button {
 }
 
 .btn-cantidad {
+  width: 4rem;
+  height: 1.5rem;
+  margin: 1rem;
   border: 1px solid var(--color-primario-oscuro);
 
 }
@@ -36,5 +39,8 @@ button {
 }
 
 .btn-formato {
+  width: 4rem;
+  height: 1.5rem;
+  margin: 1rem;
   border: 1px solid var(--color-primario-oscuro);
 }
