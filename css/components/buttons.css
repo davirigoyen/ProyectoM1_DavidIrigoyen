@@ -27,6 +27,12 @@ button {
   border: 1px solid var(--color-primario-oscuro);
 }
 
+.boton-para-generar {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
 .btn-formato {
   border: 1px solid var(--color-primario-oscuro);
 }
