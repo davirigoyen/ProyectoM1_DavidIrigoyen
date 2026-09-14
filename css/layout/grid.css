@@ -12,9 +12,15 @@
 }
 
 .titulo-secundario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
 .instrucciones {
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
