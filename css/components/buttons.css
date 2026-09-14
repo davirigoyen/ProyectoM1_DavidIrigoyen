@@ -40,11 +40,6 @@ button {
   transition: 1.5s;
 }
 
-.boton-para-generar {
-  display: flex;
-  justify-content: center;
-  margin: 2rem;
-}
 
 .btn-formato {
   width: 4rem;

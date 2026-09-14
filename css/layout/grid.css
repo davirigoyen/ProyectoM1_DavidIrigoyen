@@ -4,25 +4,28 @@
   padding: 1.5rem;
 }
 
-.generar-paleta {
+.section-generar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 75rem;
   margin: 1rem;
 }
 
-.titulo-secundario {
-  display: flex;
+.generar-paleta {
+  display: grid;
+  flex-direction: row;
+  grid-template-rows: repeat(2, 1fr);
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-items: center;
 }
+
 
 .instrucciones {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
+  padding-left: 5rem;
 }
 
 .aside {
