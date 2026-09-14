@@ -16,20 +16,28 @@ button {
   min-height: 10rem;
   margin: var(--espaciado-xs);
   border: 1px solid var(--color-primario-oscuro);
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px var(--color-primario-claro);
+  transition: 1s;
 }
 
 .btn-cantidad {
   width: 4rem;
   height: 1.5rem;
   margin: 1rem;
-  border: 1px solid var(--color-primario-oscuro);
-
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px var(--color-primario-claro);
+  transition: 1.5s;
 }
 
 .btn-generar {
   width: 9rem;
   height: 3rem;
   border: 1px solid var(--color-primario-oscuro);
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px var(--color-primario);
+  transition: 1.5s;
 }
 
 .boton-para-generar {
@@ -43,4 +51,8 @@ button {
   height: 1.5rem;
   margin: 1rem;
   border: 1px solid var(--color-primario-oscuro);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px var(--color-primario-claro);
+  transition: 1.5s;
 }
