@@ -14,6 +14,9 @@ let modoHex = false;
 botonHsl.setAttribute("aria-pressed", true);
 botonHex.setAttribute("aria-pressed", false);
 
+let colorPrimarioClaro = getComputedStyle(document.documentElement).getPropertyValue("--color-primario-claro").trim();
+
+
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
     let hue = Math.floor(Math.random() * 361);
@@ -39,18 +42,20 @@ function pintarBotonesHex () {
 }
 
 botonHsl.addEventListener("click", function() {
+  animarPulso(botonHsl);
   modoHsl = true;
   modoHex = false;
-  botonHsl.style.backgroundColor = "lightblue";
+  botonHsl.style.backgroundColor = colorPrimarioClaro;
   botonHex.style.backgroundColor = "";
   botonHsl.setAttribute("aria-pressed", true);
   botonHex.setAttribute("aria-pressed", false);
 })
 
 botonHex.addEventListener("click", function() {
+  animarPulso(botonHex);
   modoHsl = false;
   modoHex = true;
-  botonHex.style.backgroundColor = "lightblue";
+  botonHex.style.backgroundColor = colorPrimarioClaro;
   botonHsl.style.backgroundColor = "";
   botonHsl.setAttribute("aria-pressed", false);
   botonHex.setAttribute("aria-pressed", true);
@@ -82,27 +87,30 @@ function cantidadRender (cantidad) {
 
 boton6.addEventListener("click", function(){
   cantidadRender(6);
-  boton6.style.backgroundColor = "lightblue";
+  animarPulso(boton6);
+  boton6.style.backgroundColor = colorPrimarioClaro;
   boton8.style.backgroundColor = "";
   boton9.style.backgroundColor = "";
 });
 
 boton8.addEventListener("click", function(){
   cantidadRender(8);
+  animarPulso(boton8);
   boton6.style.backgroundColor = "";
-  boton8.style.backgroundColor = "lightblue";
+  boton8.style.backgroundColor = colorPrimarioClaro;
   boton9.style.backgroundColor = "";
 });
 
 boton9.addEventListener("click", function() {
   cantidadRender(9);
+  animarPulso(boton9);
   boton6.style.backgroundColor = "";
   boton8.style.backgroundColor = "";
-  boton9.style.backgroundColor = "lightblue";
+  boton9.style.backgroundColor = colorPrimarioClaro;
 })
 
 pintarBotonesHsl();
-botonHsl.style.backgroundColor = "lightblue";
+botonHsl.style.backgroundColor = colorPrimarioClaro;
 
 function animarPulso(elemento) {
   elemento.classList.add("animar");
