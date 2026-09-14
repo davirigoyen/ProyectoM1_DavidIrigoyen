@@ -25,7 +25,7 @@ button {
 .btn-cantidad {
   width: var(--ancho-boton-md);
   height: calc(var(--ancho-boton-md) * 0.2);
-  margin: var(--espaciado-md);
+  margin: var(--margin-boton);
   border: none;
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
@@ -45,8 +45,7 @@ button {
 .btn-formato {
   width: var(--ancho-boton-md);
   height: calc(var(--ancho-boton-md) * 0.2);
-  margin: 1rem;
-  border: 1px solid var(--color-primario-oscuro);
+  margin: var(--margin-boton);
   border: none;
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
