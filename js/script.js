@@ -63,10 +63,10 @@ botonGenerar.addEventListener("click", function() {
   animarPulso(botonGenerar);
   if (modoHsl) {
     pintarBotonesHsl();
-    console.log("Pintando " + cantidadDeColores + " Colores en HSL");
+   /*console.log("Pintando " + cantidadDeColores + " Colores en HSL");*/
   } else if (modoHex) {
     pintarBotonesHex();
-    console.log("Pintando " + cantidadDeColores + " Colores en Hex");
+    /*console.log("Pintando " + cantidadDeColores + " Colores en Hex");*/
   }
 })
 
@@ -112,6 +112,7 @@ boton9.style.backgroundColor = colorPrimarioClaro;
 function animarPulso(elemento) {
   elemento.classList.add("animar");
 }
+
 
 document.addEventListener("animationend", function(evento) {
   if (evento.animationName === "animacionBoton") {
