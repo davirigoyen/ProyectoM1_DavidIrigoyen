@@ -1,5 +1,7 @@
 :root {
   --color-primario: hsl(220, 80%, 50%);
+
+  --color-primario-2:  hsl(220, 80%, 60%);
   
   --color-primario-claro: hsl(220, 80%, 75%);
 
@@ -13,6 +15,7 @@
   --espaciado-xs: 0.25rem;
   --espaciado-sm: 0.5rem;
   --espaciado-md: 1rem;
+  --espaciado-md2: 1.25rem;
   --espaciado-mdx: 1.5rem;
   --espaciado-lg: 2rem;
   --espaciado-xl: 4rem;
