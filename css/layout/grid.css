@@ -59,6 +59,11 @@
   align-items: center;
 }
 
+.titulo-terciario,
+.cantidad-texto {
+  margin-bottom: var(--gap-boton-sm);
+}
+
 .footer {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
