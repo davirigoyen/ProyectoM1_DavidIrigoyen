@@ -20,7 +20,7 @@
   --espaciado-lg: 2rem;
   --espaciado-xl: 4rem;
 
-  --ancho-boton: clamp(7rem, 10vw, 10rem);
+  --ancho-boton: clamp(6rem, 10vw, 10rem);
   --ancho-boton-md: clamp(5rem, 8vw, 8rem);
 
   --gap-boton: clamp(1rem, 3vw, 3rem);
