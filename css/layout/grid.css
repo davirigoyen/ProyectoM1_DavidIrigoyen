@@ -52,9 +52,9 @@
 
 .formato h3 {
   animation-name: desplazarAbajo;
-  animation-duration: 15s;            
+  animation-duration: 18s;            
   animation-timing-function: ease-in-out;
-  animation-delay: 0.5s;             
+  animation-delay: 3s;             
   animation-iteration-count:infinite;
 }
 

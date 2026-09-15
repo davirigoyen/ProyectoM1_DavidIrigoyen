@@ -18,9 +18,9 @@
   padding: var(--espaciado-md);
   color: var(--color-primario-oscuro);
   animation-name: girarRuleta;
-  animation-duration: 8s;
+  animation-duration: 7s;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.3s;
+  animation-delay: 0.1s;
 }
 
 .descripcion {
