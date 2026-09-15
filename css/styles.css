@@ -88,3 +88,15 @@ body {
   right: 0;
   background: linear-gradient(to left,hsl(220, 30%, 70%), transparent);
 }
+
+@keyframes desplazarAbajo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); /* Punto máximo de bajada */
+  }
+  100% {
+    transform: translateY(0); /* Retorno a la posición original */
+  }
+}
