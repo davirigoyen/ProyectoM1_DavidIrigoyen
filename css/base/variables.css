@@ -24,4 +24,5 @@
   --ancho-boton-md: clamp(5rem, 8vw, 8rem);
 
   --gap-boton: clamp(1rem, 3vw, 3rem);
+  --gap-boton-sm: clamp(0.6rem, 2vw, 2rem);
 }

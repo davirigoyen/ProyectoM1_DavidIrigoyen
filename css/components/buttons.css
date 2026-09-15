@@ -42,7 +42,7 @@ button {
   display: flex;
   flex-direction: row;
   gap: var(--gap-boton);
-  margin-top: var(--gap-boton);
+  margin-top: var(--gap-boton-sm);
 }
 
 .btn-formato {
