@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+.contenido-principal {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: var(--espaciado-lg);
+}
+
 .section-generar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
