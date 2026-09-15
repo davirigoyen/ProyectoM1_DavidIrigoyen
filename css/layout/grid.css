@@ -14,11 +14,9 @@
 
 .generar-paleta {
   display: grid;
-  flex-direction: row;
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   justify-items: center;
-  min-height: 100%;
 }
 
 .instrucciones {
