@@ -25,5 +25,5 @@
 
 .descripcion {
   font-size: var(--espaciado-mdx);
-  color: var(--color-primario);
+  color: var(--color-primario-claro);
 }
