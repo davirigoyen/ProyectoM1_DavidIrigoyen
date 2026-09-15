@@ -52,10 +52,10 @@
 
 .formato h3 {
   animation-name: desplazarAbajo;
-  animation-duration: 4s;              /* Velocidad promedio */
+  animation-duration: 7s;              /* Velocidad promedio */
   animation-timing-function: ease-in-out; /* Movimiento fluido */
   animation-delay: 0.5s;               /* Delay promedio antes de iniciar */
-  animation-iteration-count: infinite; /* Bucle infinito */
+  animation-iteration-count: 4; /* Bucle infinito */
 }
 
 .cantidad-texto {
