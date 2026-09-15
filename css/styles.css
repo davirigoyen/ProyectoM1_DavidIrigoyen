@@ -94,9 +94,9 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(75px); /* Punto máximo de bajada */
+    transform: translateY(75px);
   }
   100% {
-    transform: translateY(0); /* Retorno a la posición original */
+    transform: translateY(0);
   }
 }
