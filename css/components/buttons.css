@@ -16,7 +16,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 95%;
+  width: 98%;
   align-items: center;
   margin: 0 auto;
   padding: var(--espaciado-md);
