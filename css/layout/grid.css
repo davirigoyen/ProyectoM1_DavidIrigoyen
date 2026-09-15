@@ -31,7 +31,6 @@
   justify-content: center;
   align-items: center;
   text-align: justify;
-  font-style: italic;
   line-height: var(--espaciado-md);
 }
 
