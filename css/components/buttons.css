@@ -19,8 +19,8 @@ button {
   width: 95%;
   align-items: center;
   margin: 0 auto;
+  padding: var(--espaciado-md);
 }
-
 
 .btn-generado {
   width: var(--ancho-boton);
