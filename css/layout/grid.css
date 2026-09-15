@@ -55,10 +55,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100rem;
-  align-items: start;
-  justify-content: center;
-  text-align: center;
   padding: var(--espaciado-md);
+  gap: var(--espaciado-md);
 }
 
 .footer {
