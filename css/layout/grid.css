@@ -50,6 +50,14 @@
   height: 100%;
 }
 
+.formato h3 {
+  animation-name: desplazarAbajo;
+  animation-duration: 2s;              /* Velocidad promedio */
+  animation-timing-function: ease-in-out; /* Movimiento fluido */
+  animation-delay: 0.5s;               /* Delay promedio antes de iniciar */
+  animation-iteration-count: infinite; /* Bucle infinito */
+}
+
 .cantidad-texto {
   display: flex;
   flex-direction: column;
@@ -59,14 +67,6 @@
 .titulo-terciario,
 .cantidad-texto {
   margin-bottom: var(--gap-boton-sm);
-}
-
-.formato h3 {
-  animation-name: desplazarAbajo;
-  animation-duration: 2s;              /* Velocidad promedio */
-  animation-timing-function: ease-in-out; /* Movimiento fluido */
-  animation-delay: 0.5s;               /* Delay promedio antes de iniciar */
-  animation-iteration-count: infinite; /* Bucle infinito */
 }
 
 .footer {
