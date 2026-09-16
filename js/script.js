@@ -205,8 +205,6 @@ for (let boton of botonConColor) {
   });
 }
 
-/*const tooltipUnblockContent = "\u{1F513}";*/
-
 for (let boton of botonConColor) {
   let tooltipUnblock = document.createElement("span");
   tooltipUnblock.classList.add("tooltip-unblock");
@@ -215,19 +213,15 @@ for (let boton of botonConColor) {
   boton.addEventListener("mouseover", function() {
     tooltipUnblock.textContent = "\u{1F513}";
     tooltipUnblock.classList.add("mostrar");
-  
-  });
+   });
     
   boton.addEventListener("mouseout", function(){
     tooltipUnblock.classList.remove("mostrar");
-
-  })
-  
+  });
+  tooltipUnblock.addEventListener("click", function(eventoBlock) {
+    eventoBlock.stopPropagation();
+    mostrarToast("¡Color bloqueado!");
+  });
 }
 
- /*tooltipUnblockContent.addEventListener("click", function() {
-      let colorBloqueado = boton.getAttribute("data-color");
-      navigator.clipboard.writeText(colorBloqueado).then(function() {
-      mostrarToast("!Color bloqueado! " + colorBloqueado);
-     })
-   });*/
+  
