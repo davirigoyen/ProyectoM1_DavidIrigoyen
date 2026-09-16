@@ -5,3 +5,7 @@
 .instruccion-2::before {
   content: "\1F64C\00a0";
 }
+
+.instruccion-3::before {
+  content: "\1F60E\00a0";
+}
