@@ -1,3 +1,7 @@
 .instruccion-1::before {
  content: "\1F60A\00a0";
 }
+
+.instruccion-2::before {
+  content: "\1F64C\00a0";
+}
