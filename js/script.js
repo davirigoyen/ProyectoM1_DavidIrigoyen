@@ -20,6 +20,8 @@ const toast = document.getElementById("toast");
 
 const botonGuardarPaleta = document.querySelector(".btn-guardar-paleta");
 let paletasGuardadas = [];
+const botonPaletas = document.querySelector(".btn-paletas");
+
 
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
