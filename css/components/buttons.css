@@ -95,3 +95,12 @@ button {
 .desplegable-paletas.mostrar {
   display: flex;
 }
+
+.paleta-guardada {
+  display: flex;
+  flex-direction: row;
+  gap: 0.15rem;
+  padding: 0.3rem;
+  border: 1px solid var(--color-primario-oscuro);
+  border-radius: 5px;
+}
