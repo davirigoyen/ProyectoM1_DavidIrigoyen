@@ -293,27 +293,30 @@ function renderizarPaletasGuardadas() {
   desplegablePaletas.innerHTML = "";
 
   paletasGuardadas.forEach(function(paleta, indice) {
-
     let botonPaletaGuardada =
       document.createElement("button");
-
     botonPaletaGuardada.classList.add(
       "paleta-guardada"
     );
+    paleta.forEach(function(colorGuardado) {
+      let miniColor =
+      document.createElement("span");
+      miniColor.classList.add(
+        "mini-color-paleta"
+      );
+      miniColor.style.backgroundColor =
+        colorGuardado.color;
 
-    botonPaletaGuardada.textContent =
-      "Paleta " + (indice + 1);
-
+      botonPaletaGuardada.appendChild(
+        miniColor
+      );
+    });
     desplegablePaletas.appendChild(
       botonPaletaGuardada
     );
-
   });
-
 }
 
 botonPaletas.addEventListener("click", function() {
-
   desplegablePaletas.classList.toggle("mostrar");
-
 });
