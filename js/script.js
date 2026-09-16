@@ -263,20 +263,26 @@ for (let boton of botonConColor) {
 
 botonGuardarPaleta.addEventListener("click", function() {
 
+  if (paletasGuardadas.length >= 5) {
+    mostrarToast("¡Límite de paletas guardadas alcanzado!");
+    return;
+  }
+
   let paletaActual = [];
 
-  for (let boton of botonConColor) {
+  for (let i = 0; i < cantidadDeColores; i++) {
 
-    if (boton.style.display !== "none") {
+    let boton = botonConColor[i];
 
-      paletaActual.push({
-        color: boton.getAttribute("data-color"),
-        hsl: boton.getAttribute("data-hsl"),
-        hex: boton.getAttribute("data-hex")
-      });
-    }
+    paletaActual.push({
+      color: boton.getAttribute("data-color"),
+      hsl: boton.getAttribute("data-hsl"),
+      hex: boton.getAttribute("data-hex")
+    });
+
   }
   paletasGuardadas.push(paletaActual);
-  /*console.log(paletasGuardadas);*/
+  console.log(paletasGuardadas);
   mostrarToast("¡Paleta guardada!");
 });
+
