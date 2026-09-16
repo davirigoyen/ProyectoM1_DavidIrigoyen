@@ -20,6 +20,11 @@ const toast = document.getElementById("toast");
 
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
+
+    if (botonFinalHsl.getAttribute("data-bloqueado") === "true") {
+      continue;
+    }
+
     let hue = Math.floor(Math.random() * 361);
     let sat = Math.floor(Math.random() * 101); 
     let light = Math.floor(Math.random() * 101);
@@ -35,6 +40,11 @@ function pintarBotonesHsl () {
 
 function pintarBotonesHex () {
   for (let botonFinalHex of botonConColor) {
+
+    if (botonFinalHex.getAttribute("data-bloqueado") === "true") {
+        continue;
+    }
+
     let colorHex = "#";
     for (let i = 0; i < 6; i++) {
       let indiceHex = Math.floor(Math.random() * 16);
