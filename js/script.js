@@ -233,10 +233,12 @@ for (let boton of botonConColor) {
     bloqueado = !bloqueado;
 
     if (bloqueado) {
+    boton.setAttribute("data-bloqueado", "true");  
     tooltipUnblock.textContent = "\u{1F512}";
     tooltipUnblock.classList.add("mostrar");
     mostrarToast("¡Color bloqueado!");
     } else {
+      boton.setAttribute("data-bloqueado", "false");
       tooltipUnblock.textContent = "\u{1F513}";
       tooltipUnblock.classList.remove("mostrar");
       mostrarToast("¡Color desbloqueado!");
