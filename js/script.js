@@ -206,3 +206,19 @@ for (let boton of botonConColor) {
     tooltip.classList.remove("mostrar");
   });
 }
+
+for (let boton of botonConColor) {
+  let tooltipUnblock = document.createElement("span");
+  tooltipUnblock.classList.add("tooltip-unblock");
+  boton.appendChild(tooltipUnblock);
+
+  boton.addEventListener("mouseover", function() {
+    tooltipUnblock.textContent = "\u{1F513}";
+    tooltipUnblock.classList.add("mostrar");
+  });
+
+  boton.addEventListener("mouseout", function(){
+    tooltipUnblock.classList.remove("mostrar");
+
+  })
+}

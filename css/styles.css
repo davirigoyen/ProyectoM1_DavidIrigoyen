@@ -58,7 +58,7 @@ body {
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease;
@@ -109,7 +109,7 @@ body {
   margin-top: 0.5rem;
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 1px solid var(--color-primario-oscuro);
   font-size: 0.6rem;
   padding: 0.3rem 0.6rem;
   border-radius: 5px;
@@ -125,16 +125,14 @@ body {
 
 .tooltip-unblock {
   position: absolute;
-  content: "\1F513";
-  top: 05%;
-  left: 50%;
+  top: 5%;
+  left: 84%;
   transform: translateX(-50%);
   margin-top: 0.1rem;
   background-color: white;
-  color: black;
-  border: 1px solid black;
-  font-size: 0.3rem;
-  padding: 0.3rem 0.3rem;
+  border: 1px solid var(--color-primario-oscuro);
+  font-size: 1rem;
+  padding: 0.1rem 0.1rem;
   border-radius: 5px;
   white-space: nowrap;
   opacity: 0;
@@ -142,6 +140,6 @@ body {
   transition: opacity 0.2s ease;
 }
 
-.tooltip-color.mostrar {
+.tooltip-unblock.mostrar {
   opacity: 1;
 }
