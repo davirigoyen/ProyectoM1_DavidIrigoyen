@@ -221,7 +221,7 @@ for (let boton of botonConColor) {
   tooltipUnblock.addEventListener("click", function(eventoBlock) {
     eventoBlock.stopPropagation();
     mostrarToast("¡Color bloqueado!");
-  });
+  }); /*Creo evento click*/
 }
 
   
