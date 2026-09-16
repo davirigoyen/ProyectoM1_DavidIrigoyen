@@ -198,7 +198,7 @@ for (let boton of botonConColor) {
 
   boton.addEventListener("mouseover", function() {
     let colorMostrado = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
-    tooltip.textContent = colorActual;
+    tooltip.textContent = colorMostrado;
     tooltip.classList.add("mostrar");
   });
 
