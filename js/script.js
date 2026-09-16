@@ -18,6 +18,8 @@ let colorPrimarioClaro = getComputedStyle(document.documentElement).getPropertyV
 
 const toast = document.getElementById("toast");
 
+const botonGuardarPaleta = document.querySelector(".btn-guardar-paleta");
+
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
 
