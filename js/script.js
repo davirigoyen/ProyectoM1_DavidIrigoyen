@@ -221,7 +221,9 @@ for (let boton of botonConColor) {
   tooltipUnblock.addEventListener("click", function(eventoBlock) {
     eventoBlock.stopPropagation();
     mostrarToast("¡Color bloqueado!");
-  }); /*Creo evento click*/
+    tooltipUnblock.textContent = "\u{1F512}";
+    tooltipUnblock.classList.add("mostrar");
+  });
 }
 
   
