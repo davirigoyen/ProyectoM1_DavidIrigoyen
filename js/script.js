@@ -208,21 +208,39 @@ for (let boton of botonConColor) {
 for (let boton of botonConColor) {
   let tooltipUnblock = document.createElement("span");
   tooltipUnblock.classList.add("tooltip-unblock");
+
+  let bloqueado = false;
+
   boton.appendChild(tooltipUnblock);
 
   boton.addEventListener("mouseover", function() {
+    
+    if (!bloqueado) {
+
     tooltipUnblock.textContent = "\u{1F513}";
     tooltipUnblock.classList.add("mostrar");
+    }
    });
     
   boton.addEventListener("mouseout", function(){
+    if (!bloqueado) {
     tooltipUnblock.classList.remove("mostrar");
+    }
   });
   tooltipUnblock.addEventListener("click", function(eventoBlock) {
     eventoBlock.stopPropagation();
-    mostrarToast("¡Color bloqueado!");
+
+    bloqueado = !bloqueado;
+
+    if (bloqueado) {
     tooltipUnblock.textContent = "\u{1F512}";
     tooltipUnblock.classList.add("mostrar");
+    mostrarToast("¡Color bloqueado!");
+    } else {
+      tooltipUnblock.textContent = "\u{1F513}";
+      tooltipUnblock.classList.remove("mostrar");
+      mostrarToast("¡Color desbloqueado!");
+    }
   });
 }
 
