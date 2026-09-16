@@ -29,6 +29,8 @@ function pintarBotonesHsl () {
     botonFinalHsl.style.backgroundColor = color;
     botonFinalHsl.setAttribute("aria-label", "Color " + color);
     botonFinalHsl.setAttribute("data-color", color);
+    botonFinalHsl.setAttribute("data-hsl", color);
+    botonFinalHsl.setAttribute("data-hex", hslAHex(hue, sat, light));
 }
 };
 
