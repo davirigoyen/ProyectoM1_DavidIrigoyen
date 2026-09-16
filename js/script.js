@@ -141,3 +141,19 @@ document.addEventListener("animationend", function(evento) {
     evento.target.classList.remove("animar");
   }
 });
+
+for (let boton of botonConColor) {
+  let tooltip = document.createElement("span");
+  tooltip.classList.add("tooltip-color");
+  boton.appendChild(tooltip);
+
+  boton.addEventListener("mouseover", function() {
+    let colorActual = boton.getAttribute("data-color");
+    tooltip.textContent = colorActual;
+    tooltip.classList.add("mostrar");
+  });
+
+  boton.addEventListener("mouseout", function() {
+    tooltip.classList.remove("mostrar");
+  });
+}
