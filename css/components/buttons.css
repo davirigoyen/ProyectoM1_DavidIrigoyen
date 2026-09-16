@@ -32,6 +32,11 @@ button {
   transition: 1s;
 }
 
+.btn-generado:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 9px var(--color-primario);
+}
+
 .botones-formato {
   display: flex;
   flex-direction: row;
