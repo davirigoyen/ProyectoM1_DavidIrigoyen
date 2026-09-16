@@ -84,3 +84,14 @@ button {
   box-shadow: 4px 4px 8px var(--color-primario-claro);
   transition: 1.5s;
 }
+
+.desplegable-paletas {
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.desplegable-paletas.mostrar {
+  display: flex;
+}
