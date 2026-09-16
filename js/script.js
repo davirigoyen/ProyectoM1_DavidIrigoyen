@@ -45,6 +45,8 @@ function pintarBotonesHex () {
     botonFinalHex.style.backgroundColor = colorHex;
     botonFinalHex.setAttribute("aria-label", "Color " + colorHex);
     botonFinalHex.setAttribute("data-color", colorHex);
+    botonFinalHex.setAttribute("data-hex", colorHex);
+    botonFinalHex.setAttribute("data-hsl", hexAHslString(colorHex));
   }
 }
 
