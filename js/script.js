@@ -259,4 +259,22 @@ for (let boton of botonConColor) {
   });
 }
 
-  
+botonGuardarPaleta.addEventListener("click", function() {
+
+  let paletaActual = [];
+
+  for (let boton of botonConColor) {
+
+    if (boton.style.display !== "none") {
+
+      paletaActual.push({
+        color: boton.getAttribute("data-color"),
+        hsl: boton.getAttribute("data-hsl"),
+        hex: boton.getAttribute("data-hex")
+      });
+    }
+  }
+  paletasGuardadas.push(paletaActual);
+  /*console.log(paletasGuardadas);*/
+  mostrarToast("¡Paleta guardada!");
+});
