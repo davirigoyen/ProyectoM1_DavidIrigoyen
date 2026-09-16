@@ -76,3 +76,11 @@ button {
   box-shadow: 4px 4px 8px var(--color-primario);
   transition: 1.5s;
 }
+.btn-guardar-paleta {
+  width: calc(var(--ancho-boton-md) * 1.7);
+  height: calc(var(--ancho-boton-md) * 0.3);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px var(--color-primario-claro);
+  transition: 1.5s;
+}
