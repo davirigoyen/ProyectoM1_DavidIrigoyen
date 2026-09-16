@@ -122,3 +122,26 @@ body {
 .tooltip-color.mostrar {
   opacity: 1;
 }
+
+.tooltip-unblock {
+  position: absolute;
+  content: "\1F513";
+  top: 05%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.1rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-size: 0.3rem;
+  padding: 0.3rem 0.3rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.tooltip-color.mostrar {
+  opacity: 1;
+}
