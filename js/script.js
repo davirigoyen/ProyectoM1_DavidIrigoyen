@@ -23,6 +23,7 @@ let paletasGuardadas = [];
 const botonPaletas = document.querySelector(".btn-paletas");
 const desplegablePaletas = document.querySelector(".desplegable-paletas");
 
+
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
 
@@ -283,6 +284,36 @@ botonGuardarPaleta.addEventListener("click", function() {
   }
   paletasGuardadas.push(paletaActual);
   console.log(paletasGuardadas);
+  renderizarPaletasGuardadas();
   mostrarToast("¡Paleta guardada!");
 });
 
+function renderizarPaletasGuardadas() {
+
+  desplegablePaletas.innerHTML = "";
+
+  paletasGuardadas.forEach(function(paleta, indice) {
+
+    let botonPaletaGuardada =
+      document.createElement("button");
+
+    botonPaletaGuardada.classList.add(
+      "paleta-guardada"
+    );
+
+    botonPaletaGuardada.textContent =
+      "Paleta " + (indice + 1);
+
+    desplegablePaletas.appendChild(
+      botonPaletaGuardada
+    );
+
+  });
+
+}
+
+botonPaletas.addEventListener("click", function() {
+
+  desplegablePaletas.classList.toggle("mostrar");
+
+});
