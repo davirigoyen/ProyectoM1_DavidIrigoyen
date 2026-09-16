@@ -9,3 +9,7 @@
 .instruccion-3::before {
   content: "\1F60E\00a0";
 }
+
+.preferencia::after {
+  content: "\00a0\1F447";
+}
