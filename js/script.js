@@ -306,6 +306,17 @@ function renderizarPaletasGuardadas() {
     botonEliminar.textContent = "✖";
     botonEliminar.classList.add("btn-eliminar-paleta");
 
+    botonEliminar.addEventListener("click", function(evento) {
+
+    evento.stopPropagation();
+
+    paletasGuardadas.splice(indice, 1);
+
+    renderizarPaletasGuardadas();
+
+    mostrarToast("¡Paleta eliminada!");
+    });
+
     botonPaletaGuardada.addEventListener("click", function() {
 
     let textoParaCopiar = "";
