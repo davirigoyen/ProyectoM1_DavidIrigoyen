@@ -94,10 +94,8 @@ botonGenerar.addEventListener("click", function() {
   animarPulso(botonGenerar);
   if (modoHsl) {
     pintarBotonesHsl();
-   /*console.log("Pintando " + cantidadDeColores + " Colores en HSL");*/
   } else if (modoHex) {
     pintarBotonesHex();
-    /*console.log("Pintando " + cantidadDeColores + " Colores en Hex");*/
   }
 })
 
@@ -269,13 +267,13 @@ for (let boton of botonConColor) {
   boton.appendChild(tooltipUnblock);
 
   boton.addEventListener("mouseover", function() {
-    
-    if (!bloqueado) {
+
+  if (boton.getAttribute("data-bloqueado") !== "true") {
 
     tooltipUnblock.textContent = "\u{1F513}";
     tooltipUnblock.classList.add("mostrar");
-    }
-   });
+  }
+  });
     
   boton.addEventListener("mouseout", function(){
     if (!bloqueado) {
