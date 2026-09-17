@@ -394,6 +394,7 @@ function renderizarPaletasGuardadas() {
       botonPaletaGuardada.appendChild(miniColor);
     });
     filaPaleta.appendChild(botonPaletaGuardada);
+    filaPaleta.appendChild(botonRestaurar);
     filaPaleta.appendChild(botonEliminar);
     desplegablePaletas.appendChild(filaPaleta);
   });
