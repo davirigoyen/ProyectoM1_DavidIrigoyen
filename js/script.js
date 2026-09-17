@@ -23,7 +23,6 @@ let paletasGuardadas = [];
 const botonPaletas = document.querySelector(".btn-paletas");
 const desplegablePaletas = document.querySelector(".desplegable-paletas");
 
-
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
 
@@ -264,7 +263,9 @@ for (let boton of botonConColor) {
 
 botonGuardarPaleta.addEventListener("click", function() {
 
-  if (paletasGuardadas.length >= 5) {
+    animarPulso(botonGuardarPaleta);
+
+    if (paletasGuardadas.length >= 5) {
     mostrarToast("¡Límite de paletas guardadas alcanzado!");
     return;
   }
