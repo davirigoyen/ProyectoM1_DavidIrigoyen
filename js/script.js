@@ -275,11 +275,13 @@ for (let boton of botonConColor) {
   }
   });
     
-  boton.addEventListener("mouseout", function(){
-    if (!bloqueado) {
+  boton.addEventListener("mouseout", function() {
+    if (boton.getAttribute("data-bloqueado")!== "true") {
+
     tooltipUnblock.classList.remove("mostrar");
-    }
+  }
   });
+
   tooltipUnblock.addEventListener("click", function(eventoBlock) {
     eventoBlock.stopPropagation();
 
