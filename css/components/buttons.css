@@ -77,6 +77,7 @@ button {
   transition: 1.5s;
   font-size: var(--font-boton);
   padding: var(--espaciado-sm);
+  font-size: calc(var(--font-boton) / 1.1);
 }
 
 .btn-guardar-paleta {
@@ -86,7 +87,7 @@ button {
   border-radius: 15px;
   box-shadow: 4px 4px 8px var(--color-primario-claro);
   transition: 1.5s;
-  font-size: var(--font-boton);
+  font-size: calc(var(--font-boton) / 1.1);
   padding: var(--espaciado-sm);
 }
 
