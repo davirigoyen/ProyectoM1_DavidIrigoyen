@@ -352,6 +352,25 @@ function renderizarPaletasGuardadas() {
     mostrarToast("¡Paleta eliminada!");
     });
 
+    botonRestaurar.addEventListener("click", function(evento) {
+
+      evento.stopPropagation();
+
+      for (let i = 0; i < paleta.length; i++) {
+
+        let boton = botonConColor[i];
+        let colorGuardado = paleta[i];
+
+        boton.style.backgroundColor = colorGuardado.color;
+        boton.setAttribute("data-color", colorGuardado.color);
+        boton.setAttribute("data-hsl", colorGuardado.hsl);
+        boton.setAttribute("data-hex", colorGuardado.hex);
+        boton.setAttribute("aria-label", "Color " + colorGuardado.color);
+      }
+
+      mostrarToast("¡Paleta restaurada!");
+    });
+
     botonPaletaGuardada.addEventListener("click", function() {
 
     let textoParaCopiar = "";
