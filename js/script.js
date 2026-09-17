@@ -23,6 +23,15 @@ let paletasGuardadas = [];
 const botonPaletas = document.querySelector(".btn-paletas");
 const desplegablePaletas = document.querySelector(".desplegable-paletas");
 
+for (let boton of botonConColor) {
+
+  boton.setAttribute(
+    "data-bloqueado",
+    "false"
+  );
+
+}
+
 function pintarBotonesHsl () {
   for (let botonFinalHsl of botonConColor) {
 
