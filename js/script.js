@@ -369,6 +369,12 @@ function renderizarPaletasGuardadas() {
       boton8.style.backgroundColor = "";
       boton9.style.backgroundColor = "";
 
+      if (paleta.length === 6) {
+        boton6.style.backgroundColor = colorPrimarioClaro;
+      } else if (paleta.length === 8) {
+        boton8.style.backgroundColor = colorPrimarioClaro;
+      } else if (paleta.length === 9) {boton9.style.backgroundColor = colorPrimarioClaro;}
+
       for (let i = 0; i < paleta.length; i++) {
 
         let boton = botonConColor[i];
