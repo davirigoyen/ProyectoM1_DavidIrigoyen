@@ -25,4 +25,6 @@
 
   --gap-boton: clamp(1rem, 3vw, 3rem);
   --gap-boton-sm: clamp(0.6rem, 2vw, 2rem);
+
+  --font-boton: clamp(0.7rem, 1.2vw, 1.1rem);
 }
