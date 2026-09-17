@@ -372,6 +372,16 @@ function renderizarPaletasGuardadas() {
         boton.setAttribute("data-color", colorGuardado.color);
         boton.setAttribute("data-hsl", colorGuardado.hsl);
         boton.setAttribute("data-hex", colorGuardado.hex);
+
+        boton.setAttribute("data-bloqueado","false");
+
+        let tooltipUnblock = boton.querySelector(".tooltip-unblock");
+        
+        if (tooltipUnblock) {
+          tooltipUnblock.textContent ="\u{1F513}";
+          tooltipUnblock.classList.remove("mostrar");
+        }
+
         boton.setAttribute("aria-label", "Color " + colorGuardado.color);
       }
 
