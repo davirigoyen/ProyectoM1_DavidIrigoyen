@@ -81,7 +81,7 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .controles-paletas {
@@ -89,15 +89,6 @@
   flex-direction: column;
   gap: var(--espaciado-lg);
 }
-
-/*.paletas-guardadas {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  justify-items: center;
-  align-content: center;
-  row-gap: 0.5rem;
-}*/
-
 
 .footer {
   display: grid;
