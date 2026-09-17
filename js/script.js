@@ -336,6 +336,10 @@ function renderizarPaletasGuardadas() {
     let botonEliminar = document.createElement("button");
     botonEliminar.textContent = "\u00D7";
     botonEliminar.classList.add("btn-eliminar-paleta");
+    
+    let botonRestaurar = document.createElement("button");
+    botonRestaurar.textContent = "\u21BA";
+    botonRestaurar.classList.add("btn-restaurar-paleta");
 
     botonEliminar.addEventListener("click", function(evento) {
 
