@@ -71,6 +71,11 @@
   margin-bottom: var(--gap-boton-sm);
 }
 
+.titulo-secundario,
+.titulo-terciario {
+  text-shadow: 0.5px 0.5px 0.5px var(--color-primario-2);
+}
+
 .controles-paletas {
   display: flex;
   flex-direction: column;
