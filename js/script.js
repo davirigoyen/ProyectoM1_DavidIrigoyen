@@ -97,6 +97,9 @@ botonGenerar.addEventListener("click", function() {
   } else if (modoHex) {
     pintarBotonesHex();
   }
+
+  mostrarToast("¡Paleta generada!");
+
 })
 
 function cantidadRender(cantidad) {
