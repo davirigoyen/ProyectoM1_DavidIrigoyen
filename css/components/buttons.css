@@ -93,8 +93,14 @@ button {
 
 .desplegable-paletas {
   display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
   flex-direction: column;
   gap: 0.4rem;
+  z-index: 1000;
+  background-color: var(--color-primario-muy-claro);
 }
 
 .desplegable-paletas.mostrar {
@@ -102,7 +108,7 @@ button {
 }
 
 .desplegable-paletas.mostrar:not(:empty) {
-  margin-top: var(--espaciado-md);
+  top: calc(100% + var(--espaciado-md));
 }
 
 .paleta-guardada {

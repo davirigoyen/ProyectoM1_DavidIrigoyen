@@ -52,6 +52,10 @@
   justify-content: flex-start;
 }
 
+.paletas-guardadas {
+  position: relative;
+}
+
 .titulo-terciario {
   margin-bottom: calc(var(--gap-boton) * 1.1);
 }
