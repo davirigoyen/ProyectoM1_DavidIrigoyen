@@ -1,15 +1,13 @@
-.instruccion-1::before {
- content: "\1F60A\00a0";
-}
-
-.instruccion-2::before {
-  content: "\1F64C\00a0";
-}
-
+.instruccion-1::before,
+.instruccion-2::before,
 .instruccion-3::before {
-  content: "\1F60E\00a0";
+ content: "\00B7\00a0";
+ color: var(--color-primario);
 }
-
-.preferencia::after {
-  content: "\00a0\1F447";
-}
+/*
+.instruccion-1::after,
+.instruccion-2::after,
+.instruccion-3::after {
+  content: "\00a0\00B7";
+  color: var(--color-primario);
+}*/
