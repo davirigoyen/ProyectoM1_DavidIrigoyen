@@ -294,11 +294,33 @@ function renderizarPaletasGuardadas() {
   desplegablePaletas.innerHTML = "";
 
   paletasGuardadas.forEach(function(paleta, indice) {
-    let botonPaletaGuardada =
-      document.createElement("button");
+    
+    let botonPaletaGuardada = document.createElement("button");
+    
     botonPaletaGuardada.classList.add(
       "paleta-guardada"
     );
+
+    botonPaletaGuardada.addEventListener("click", function() {
+
+    let textoParaCopiar = "";
+
+    paleta.forEach(function(colorGuardado) {
+
+    textoParaCopiar +=
+      colorGuardado.color + "\n";
+
+    });
+
+    navigator.clipboard.writeText(textoParaCopiar)
+    .then(function() {
+
+      mostrarToast("¡Paleta copiada!");
+
+    });
+
+    });
+
     paleta.forEach(function(colorGuardado) {
       let miniColor =
       document.createElement("span");
