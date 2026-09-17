@@ -262,8 +262,6 @@ for (let boton of botonConColor) {
   let tooltipUnblock = document.createElement("span");
   tooltipUnblock.classList.add("tooltip-unblock");
 
-  let bloqueado = false;
-
   boton.appendChild(tooltipUnblock);
 
   boton.addEventListener("mouseover", function() {
@@ -285,21 +283,21 @@ for (let boton of botonConColor) {
   tooltipUnblock.addEventListener("click", function(eventoBlock) {
     eventoBlock.stopPropagation();
 
-    bloqueado = !bloqueado;
-
-    if (bloqueado) {
-    boton.setAttribute("data-bloqueado", "true");  
-    tooltipUnblock.textContent = "\u{1F512}";
-    tooltipUnblock.classList.add("mostrar");
-    mostrarToast("¡Color bloqueado!");
-    } else {
-      boton.setAttribute("data-bloqueado", "false");
-      tooltipUnblock.textContent = "\u{1F513}";
+    if (boton.getAttribute("data-bloqueado")=== "true") {
+      boton.setAttribute("data-bloqueado","false");
+      tooltipUnblock.textContent ="\u{1F513}";
       tooltipUnblock.classList.remove("mostrar");
       mostrarToast("¡Color desbloqueado!");
+    } else {
+        boton.setAttribute("data-bloqueado","true");
+        tooltipUnblock.textContent = "\u{1F512}";
+        tooltipUnblock.classList.add("mostrar");
+        mostrarToast("¡Color bloqueado!");
+      }
     }
-  });
-}
+  )
+};
+
 
 botonGuardarPaleta.addEventListener("click", function() {
 
