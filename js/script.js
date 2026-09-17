@@ -300,46 +300,35 @@ function renderizarPaletasGuardadas() {
 
     let botonPaletaGuardada = document.createElement("button");
     
-    botonPaletaGuardada.classList.add(
-      "paleta-guardada"
-    );
+    botonPaletaGuardada.classList.add("paleta-guardada");
+
+    let botonEliminar = document.createElement("button");
+    botonEliminar.textContent = "✖";
+    botonEliminar.classList.add("btn-eliminar-paleta");
 
     botonPaletaGuardada.addEventListener("click", function() {
 
     let textoParaCopiar = "";
 
     paleta.forEach(function(colorGuardado) {
-
     textoParaCopiar +=
       colorGuardado.color + "\n";
-
     });
 
     navigator.clipboard.writeText(textoParaCopiar)
     .then(function() {
 
       mostrarToast("¡Paleta copiada!");
-
     });
-
     });
 
     paleta.forEach(function(colorGuardado) {
-      let miniColor =
-      document.createElement("span");
-      miniColor.classList.add(
-        "mini-color-paleta"
-      );
-      miniColor.style.backgroundColor =
-        colorGuardado.color;
-
-      botonPaletaGuardada.appendChild(
-        miniColor
-      );
+      let miniColor = document.createElement("span");
+      miniColor.classList.add("mini-color-paleta");
+      miniColor.style.backgroundColor = colorGuardado.color;
+      botonPaletaGuardada.appendChild(miniColor);
     });
-    desplegablePaletas.appendChild(
-      botonPaletaGuardada
-    );
+    desplegablePaletas.appendChild(botonPaletaGuardada);
   });
 }
 
