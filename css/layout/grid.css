@@ -52,24 +52,8 @@
   justify-content: flex-start;
 }
 
-.formato h3 {
-  animation-name: desplazarAbajo;
-  animation-duration: 17s;            
-  animation-timing-function: ease-in-out;
-  animation-delay: 1s;             
-  animation-iteration-count:infinite;
-  pointer-events: none;
-}
-
-.cantidad-texto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.titulo-terciario,
-.cantidad-texto {
-  margin-bottom: var(--gap-boton-sm);
+.titulo-terciario {
+  margin-bottom: calc(var(--gap-boton) * 1.1);
 }
 
 .titulo-secundario,

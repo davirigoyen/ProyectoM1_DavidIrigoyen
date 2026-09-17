@@ -51,7 +51,7 @@ button {
 }
 
 .btn-formato {
-  width: var(--ancho-boton-md);
+  width: var(--ancho-boton);
   height: calc(var(--ancho-boton-md) * 0.2);
   border: none;
   border-radius: 15px;

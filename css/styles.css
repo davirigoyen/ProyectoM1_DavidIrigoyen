@@ -93,18 +93,6 @@ h3 {
   background: linear-gradient(to left,hsl(220, 30%, 70%), transparent);
 }
 
-@keyframes desplazarAbajo {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(8.8rem);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
 .tooltip-color {
   position: absolute;
   top: 75%;
