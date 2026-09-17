@@ -365,6 +365,10 @@ function renderizarPaletasGuardadas() {
 
       cantidadRender(paleta.length);
 
+      boton6.style.backgroundColor = "";
+      boton8.style.backgroundColor = "";
+      boton9.style.backgroundColor = "";
+
       for (let i = 0; i < paleta.length; i++) {
 
         let boton = botonConColor[i];
