@@ -186,10 +186,12 @@ function mostrarToast(mensaje) {
 }
 
 for (let boton of botonConColor) {
+
   boton.addEventListener("click", function() {
-    let colorDelBoton = boton.getAttribute("data-color");
+    let colorDelBoton = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
+
     navigator.clipboard.writeText(colorDelBoton).then(function() {
-      mostrarToast("¡Color copiado! " + colorDelBoton);
+        mostrarToast("¡Color copiado! " + colorDelBoton);
     });
   });
 }
