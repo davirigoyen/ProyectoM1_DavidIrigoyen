@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding-top: var(--espaciado-lg);
+  padding-top: var(--espaciado-xl);
 }
 
 .redes-sociales {
