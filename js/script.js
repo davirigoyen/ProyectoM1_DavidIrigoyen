@@ -92,17 +92,48 @@ botonGenerar.addEventListener("click", function() {
   }
 })
 
-function cantidadRender (cantidad) {
-  cantidadDeColores = cantidad;
-    for (let i = 0; i < renderBotones.children.length; i ++) {
-      let boton = renderBotones.children[i];
+function cantidadRender(cantidad) {
 
-      if (i < cantidad) {
-        boton.style.display = "inline-block";
-      } else {
-        boton.style.display = "none";
-      }
+  cantidadDeColores = cantidad;
+
+  let botones = Array.from(botonConColor);
+
+  let bloqueados = botones.filter(function(boton) {
+    return boton.getAttribute("data-bloqueado") === "true";
+  });
+
+  let desbloqueados = botones.filter(function(boton) {
+    return boton.getAttribute("data-bloqueado") !== "true";
+  });
+
+  botones.forEach(function(boton) {
+    boton.style.display = "none";
+  });
+
+  let visibles = [];
+
+  if (bloqueados.length >= cantidad) {
+
+    visibles = bloqueados.slice(0, cantidad);
+
+  } else {
+
+    visibles = [
+      ...bloqueados,
+      ...desbloqueados.slice(
+        0,
+        cantidad - bloqueados.length
+      )
+    ];
+  }
+
+  botones.forEach(function(boton) {
+
+    if (visibles.includes(boton)) {
+
+      boton.style.display = "inline-block";
     }
+  });
 }
 
 boton6.addEventListener("click", function(){
