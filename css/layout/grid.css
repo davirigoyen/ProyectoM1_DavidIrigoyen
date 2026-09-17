@@ -71,7 +71,19 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding-top: var(--espaciado-xs);
+  padding-top: var(--espaciado-lg);
+}
+
+.redes-sociales {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  gap: var(--espaciado-md);
+  align-items: center;
+  justify-content: left;
+  margin-left: var(--gap-boton);
+  font-size: small;
+  color: var(--color-primario);
 }
 
 .css-validado {
