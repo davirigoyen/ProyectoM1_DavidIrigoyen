@@ -125,6 +125,10 @@ button {
 .btn-eliminar-paleta {
   width: 1.5rem;
   height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
   border-radius: 50%;
   cursor: pointer;
 }

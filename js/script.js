@@ -303,7 +303,7 @@ function renderizarPaletasGuardadas() {
     botonPaletaGuardada.classList.add("paleta-guardada");
 
     let botonEliminar = document.createElement("button");
-    botonEliminar.textContent = "✖";
+    botonEliminar.textContent = "\u00D7";
     botonEliminar.classList.add("btn-eliminar-paleta");
 
     botonEliminar.addEventListener("click", function(evento) {
