@@ -42,21 +42,13 @@
 }
 
 .formato,
-.cantidad-colores {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
-/*.formato,
-.cantidad-colores {
+.cantidad-colores,
+.paletas-guardadas {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-}*/
+}
 
 .formato h3 {
   animation-name: desplazarAbajo;
@@ -75,13 +67,6 @@
 .titulo-terciario,
 .cantidad-texto {
   margin-bottom: var(--gap-boton-sm);
-}
-
-.paletas-guardadas {
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: flex-start;
 }
 
 .controles-paletas {
