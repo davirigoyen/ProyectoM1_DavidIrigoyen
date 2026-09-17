@@ -4,10 +4,3 @@
  content: "\00B7\00a0";
  color: var(--color-primario);
 }
-/*
-.instruccion-1::after,
-.instruccion-2::after,
-.instruccion-3::after {
-  content: "\00a0\00B7";
-  color: var(--color-primario);
-}*/
