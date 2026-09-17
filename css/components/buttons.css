@@ -115,3 +115,16 @@ button {
   height: 1rem;
   border-radius: 1px;
 }
+
+.fila-paleta-guardada {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-eliminar-paleta {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
