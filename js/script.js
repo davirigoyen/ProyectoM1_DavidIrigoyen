@@ -295,6 +295,9 @@ function renderizarPaletasGuardadas() {
 
   paletasGuardadas.forEach(function(paleta, indice) {
     
+    let filaPaleta = document.createElement("div");
+    filaPaleta.classList.add("fila-paleta-guardada");
+
     let botonPaletaGuardada = document.createElement("button");
     
     botonPaletaGuardada.classList.add(
