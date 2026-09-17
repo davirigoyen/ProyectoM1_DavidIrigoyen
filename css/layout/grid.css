@@ -50,6 +50,14 @@
   height: 100%;
 }
 
+/*.formato,
+.cantidad-colores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}*/
+
 .formato h3 {
   animation-name: desplazarAbajo;
   animation-duration: 18s;            
@@ -73,8 +81,22 @@
   display: flex;
   flex-direction: column;
   align-items:center;
-  justify-content:space-around;
+  justify-content: space-evenly;
 }
+
+.controles-paletas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaciado-lg);
+}
+
+/*.paletas-guardadas {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  align-content: center;
+  row-gap: 0.5rem;
+}*/
 
 
 .footer {
