@@ -363,6 +363,8 @@ function renderizarPaletasGuardadas() {
 
       evento.stopPropagation();
 
+      cantidadRender(paleta.length);
+
       for (let i = 0; i < paleta.length; i++) {
 
         let boton = botonConColor[i];
