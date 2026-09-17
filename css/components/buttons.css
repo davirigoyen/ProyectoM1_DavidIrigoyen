@@ -95,11 +95,14 @@ button {
   display: none;
   flex-direction: column;
   gap: 0.4rem;
-  margin-top: var(--espaciado-md);
 }
 
 .desplegable-paletas.mostrar {
   display: flex;
+}
+
+.desplegable-paletas.mostrar:not(:empty) {
+  margin-top: var(--espaciado-md);
 }
 
 .paleta-guardada {
