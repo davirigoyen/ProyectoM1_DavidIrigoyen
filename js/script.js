@@ -19,16 +19,26 @@ let colorPrimarioClaro = getComputedStyle(document.documentElement).getPropertyV
 const toast = document.getElementById("toast");
 
 const botonGuardarPaleta = document.querySelector(".btn-guardar-paleta");
+const botonPaletas = document.querySelector(".btn-paletas");
+const desplegablePaletas = document.querySelector(".desplegable-paletas");
+const botonCopiarPaleta =document.querySelector(".btn-copiar-paleta");
+const botonExportarPaleta = document.querySelector(".btn-exportar-paleta");
+
+
 let paletasGuardadas = [];
 
 function guardarPaletasEnStorage() {
   localStorage.setItem("paletasGuardadas", JSON.stringify(paletasGuardadas));
 }
 
-const botonPaletas = document.querySelector(".btn-paletas");
-const desplegablePaletas = document.querySelector(".desplegable-paletas");
-const botonCopiarPaleta =document.querySelector(".btn-copiar-paleta");
-const botonExportarPaleta = document.querySelector(".btn-exportar-paleta");
+function cargarPaletasDesdeStorage() {
+  
+  let datosGuardados = localStorage.getItem("paletasGuardadas");
+
+  if (datosGuardados) {
+    paletasGuardadas = JSON.parse(datosGuardados);
+  }
+}
 
 for (let boton of botonConColor) {
   boton.setAttribute("data-bloqueado","false");
