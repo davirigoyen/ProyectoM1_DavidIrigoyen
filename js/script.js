@@ -322,7 +322,8 @@ botonGuardarPaleta.addEventListener("click", function() {
     paletaActual.push({
       color: boton.getAttribute("data-color"),
       hsl: boton.getAttribute("data-hsl"),
-      hex: boton.getAttribute("data-hex")
+      hex: boton.getAttribute("data-hex"),
+      formato: modoHsl ? "hsl" : "hex"
     });
 
   }
