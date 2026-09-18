@@ -19,10 +19,11 @@
   padding: var(--espaciado-md);
   color: var(--color-primario-oscuro);
   text-shadow: 2px 2px 3px var(--color-primario-oscuro);
+  margin-bottom: var(--espaciado-lg);
 }
 
 .descripcion {
   font-size: var(--espaciado-md2);
   color: var(--color-primario-2);
-  font-weight: bold;
+  font-weight:lighter;
 }
