@@ -385,6 +385,26 @@ function renderizarPaletasGuardadas() {
       botonHsl.style.backgroundColor = "";
       botonHex.style.backgroundColor = "";
 
+      if (paleta[0].formato === "hsl") {
+
+        modoHsl = true;
+        modoHex = false;
+
+        botonHsl.style.backgroundColor = colorPrimarioClaro;
+        botonHsl.setAttribute("aria-pressed", true);
+        botonHex.setAttribute("aria-pressed", false);
+
+      } else {
+
+        modoHsl = false;
+        modoHex = true;
+
+        botonHex.style.backgroundColor = colorPrimarioClaro;
+        botonHex.setAttribute("aria-pressed", true);
+        botonHsl.setAttribute("aria-pressed", false);
+
+      }
+
       boton6.style.backgroundColor = "";
       boton8.style.backgroundColor = "";
       boton9.style.backgroundColor = "";
