@@ -381,6 +381,9 @@ function renderizarPaletasGuardadas() {
       }
 
       cantidadRender(paleta.length);
+      
+      botonHsl.style.backgroundColor = "";
+      botonHex.style.backgroundColor = "";
 
       boton6.style.backgroundColor = "";
       boton8.style.backgroundColor = "";
