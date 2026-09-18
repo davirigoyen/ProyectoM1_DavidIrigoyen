@@ -92,16 +92,20 @@ button {
 }
 
 .desplegable-paletas {
-  display: none;
+  display: flex;
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-0.8rem);
   flex-direction: column;
   gap: var(--espaciado-sm);
   z-index: 1000;
   background-color: var(--color-primario-muy-claro);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 
 .desplegable-paletas.mostrar {
   display: flex;
