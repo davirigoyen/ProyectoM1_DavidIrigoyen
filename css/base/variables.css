@@ -28,6 +28,6 @@
 
   --font-boton: clamp(0.7rem, 1.2vw, 1.1rem);
 
-  --toast-bottom: clamp(1rem, 5vh, 4rem);
+  --toast-bottom: clamp(1rem, 2.5vh, 2.5rem);
   --toast-left: clamp(1rem, 2vw, 2rem);
 }

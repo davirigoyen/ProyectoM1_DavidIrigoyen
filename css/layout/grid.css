@@ -24,15 +24,6 @@
   justify-items: center;
 }
 
-.instrucciones {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  line-height: var(--espaciado-md);
-}
-
 .aside {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
