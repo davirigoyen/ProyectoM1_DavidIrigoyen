@@ -258,10 +258,17 @@ for (let boton of botonConColor) {
   boton.appendChild(tooltipCopiar);
 
   boton.addEventListener("mouseover", function() {
+    
     let colorMostrado = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
     tooltip.textContent = colorMostrado;
+    
     tooltip.classList.add("mostrar");
     tooltipCopiar.classList.add("mostrar");
+    clearTimeout(tooltipCopiar.timer);
+    tooltipCopiar.timer = setTimeout(function() {
+      tooltipCopiar.classList.remove("mostrar");
+    }, 800);
+
     setTimeout(function() {
       tooltipCopiar.classList.remove("mostrar");
     }, 800);
