@@ -11,6 +11,7 @@
 
 .section-generar {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 100rem;
   padding: var(--espaciado-mdx);
   align-items: center;
