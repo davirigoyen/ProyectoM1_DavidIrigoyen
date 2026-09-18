@@ -230,6 +230,14 @@ function exportarPaletaActual() {
   );
 }
 
+botonExportarPaleta.addEventListener("click", function() {
+
+  exportarPaletaActual();
+  mostrarToast("¡Paleta exportada!");
+  }
+);
+
+
 for (let boton of botonConColor) {
 
   boton.addEventListener("click", function() {
