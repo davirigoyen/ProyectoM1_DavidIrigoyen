@@ -127,7 +127,6 @@ botonCopiarPaleta.addEventListener("click", function() {
 function cantidadRender(cantidad) {
 
   cantidadDeColores = cantidad;
-
   let botones = Array.from(botonConColor);
 
   let bloqueados = botones.filter(function(boton) {
@@ -145,17 +144,11 @@ function cantidadRender(cantidad) {
   let visibles = [];
 
   if (bloqueados.length >= cantidad) {
-
     visibles = bloqueados.slice(0, cantidad);
-
   } else {
-
     visibles = [
       ...bloqueados,
-      ...desbloqueados.slice(
-        0,
-        cantidad - bloqueados.length
-      )
+      ...desbloqueados.slice(0, cantidad - bloqueados.length)
     ];
   }
 
@@ -406,6 +399,7 @@ botonGuardarPaleta.addEventListener("click", function() {
 
   }
   paletasGuardadas.push(paletaActual);
+  guardarPaletasEnStorage();
   console.log(paletasGuardadas);
   renderizarPaletasGuardadas();
   mostrarToast("¡Paleta guardada!");
