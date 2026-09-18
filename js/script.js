@@ -23,6 +23,7 @@ let paletasGuardadas = [];
 const botonPaletas = document.querySelector(".btn-paletas");
 const desplegablePaletas = document.querySelector(".desplegable-paletas");
 const botonCopiarPaleta =document.querySelector(".btn-copiar-paleta");
+const botonExportarPaleta = document.querySelector(".btn-exportar-paleta");
 
 for (let boton of botonConColor) {
 
