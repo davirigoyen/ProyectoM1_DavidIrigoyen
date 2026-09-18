@@ -272,7 +272,7 @@ for (let boton of botonConColor) {
     }, 700);
   });
 
-  boton.addEventListener("mouseout", function() {
+  boton.addEventListener("mouseleave", function() {
   tooltip.classList.remove("mostrar");
   });
 } 
