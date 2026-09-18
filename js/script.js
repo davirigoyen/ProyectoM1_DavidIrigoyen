@@ -101,7 +101,21 @@ botonGenerar.addEventListener("click", function() {
 
   mostrarToast("¡Paleta generada!");
 
-})
+});
+
+botonCopiarPaleta.addEventListener("click", function() {
+
+    let textoParaCopiar = "";
+    for (let i = 0; i < cantidadDeColores; i++) {
+      
+      let boton = botonConColor[i];
+      let colorActual = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
+      textoParaCopiar += colorActual + "\n";
+    }
+    navigator.clipboard.writeText(textoParaCopiar).then(function() {
+        mostrarToast("¡Paleta copiada!");
+      });
+});
 
 function cantidadRender(cantidad) {
 
