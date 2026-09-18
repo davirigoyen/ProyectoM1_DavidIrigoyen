@@ -257,7 +257,7 @@ for (let boton of botonConColor) {
   tooltipCopiar.textContent ="Copiar color";
   boton.appendChild(tooltipCopiar);
 
-  boton.addEventListener("mouseover", function() {
+  boton.addEventListener("mouseenter", function() {
     
     let colorMostrado = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
     tooltip.textContent = colorMostrado;
