@@ -26,12 +26,7 @@ const botonCopiarPaleta =document.querySelector(".btn-copiar-paleta");
 const botonExportarPaleta = document.querySelector(".btn-exportar-paleta");
 
 for (let boton of botonConColor) {
-
-  boton.setAttribute(
-    "data-bloqueado",
-    "false"
-  );
-
+  boton.setAttribute("data-bloqueado","false");
 }
 
 function pintarBotonesHsl () {
@@ -199,6 +194,19 @@ function mostrarToast(mensaje) {
   setTimeout(function() {
     toast.classList.remove("mostrar");
   }, 1600);
+}
+
+function generarTextoPaletaActual() {
+
+  let texto = "";
+
+  for (let i = 0; i < cantidadDeColores; i++) {
+
+    let boton = botonConColor[i];
+    let colorActual = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
+    texto += colorActual + "\n";
+  }
+  return texto;
 }
 
 for (let boton of botonConColor) {
