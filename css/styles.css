@@ -49,7 +49,7 @@ button {
 }
 
 .animar {
-  animation: animacionBoton 1s ease-in-out;
+  animation: animacionBoton 1.3s ease-in-out;
 }
 
 .toast {
