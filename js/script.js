@@ -239,6 +239,14 @@ function exportarPaletaActual() {
   );
 }
 
+botonDesbloquearTodos.addEventListener("click", function() {
+      
+  animarPulso(botonDesbloquearTodos);
+  desbloquearTodosLosBotones();
+  mostrarToast("¡Todos los colores desbloqueados!");
+  }
+);
+
 botonExportarPaleta.addEventListener("click", function() {
 
   exportarPaletaActual();
