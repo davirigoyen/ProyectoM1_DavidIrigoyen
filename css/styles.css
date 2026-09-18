@@ -119,8 +119,7 @@ button {
   left: 84%;
   transform: translateX(-50%);
   margin-top: 0.1rem;
-  background-color: white;
-  border: 1px solid var(--color-primario-oscuro);
+  background-color: var(--color-primario-muy-claro);
   font-size: 1rem;
   padding: 0.1rem 0.1rem;
   border-radius: 5px;
