@@ -96,22 +96,20 @@ button {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%) translateY(-0.8rem);
+  transform: translateX(-50%) scale(0.97);
   flex-direction: column;
   gap: var(--espaciado-sm);
   z-index: 1000;
   background-color: var(--color-primario-muy-claro);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.8s ease-out, transform 0.2s ease-out;
 }
 
 .desplegable-paletas.mostrar {
   opacity: 1;
   pointer-events: auto;
-  transform:
-  translateX(-50%)
-  translateY(0);
+  transform: translateX(-50%)translateY(0);
 }
 
 .desplegable-paletas.mostrar:not(:empty) {
