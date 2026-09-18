@@ -104,7 +104,7 @@ botonGenerar.addEventListener("click", function() {
 });
 
 botonCopiarPaleta.addEventListener("click", function() {
-
+    animarPulso(botonCopiarPaleta);
     let textoParaCopiar = "";
     for (let i = 0; i < cantidadDeColores; i++) {
       
