@@ -19,6 +19,13 @@
   justify-items: center;
 }
 
+.exportar-desbloquear {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+
 .aside {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
