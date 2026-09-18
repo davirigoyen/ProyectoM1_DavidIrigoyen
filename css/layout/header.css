@@ -3,6 +3,7 @@
   justify-content: center;
   background-color: var(--color-primario-claro);
   box-shadow: 4px 4px 8px var(--color-primario);
+  margin-bottom: var(--espaciado-md);
 }
 
 .header-contenido {

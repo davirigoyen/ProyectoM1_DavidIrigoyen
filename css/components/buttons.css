@@ -98,7 +98,7 @@ button {
   left: 50%;
   transform: translateX(-50%);
   flex-direction: column;
-  gap: 0.4rem;
+  gap: var(--espaciado-sm);
   z-index: 1000;
   background-color: var(--color-primario-muy-claro);
 }
@@ -108,7 +108,7 @@ button {
 }
 
 .desplegable-paletas.mostrar:not(:empty) {
-  top: calc(100% + var(--espaciado-md));
+  top: calc(100% + var(--espaciado-md) * 1.3);
 }
 
 .paleta-guardada {
