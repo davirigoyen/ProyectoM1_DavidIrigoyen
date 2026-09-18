@@ -100,17 +100,13 @@ botonGenerar.addEventListener("click", function() {
 });
 
 botonCopiarPaleta.addEventListener("click", function() {
-    animarPulso(botonCopiarPaleta);
-    let textoParaCopiar = "";
-    for (let i = 0; i < cantidadDeColores; i++) {
-      
-      let boton = botonConColor[i];
-      let colorActual = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
-      textoParaCopiar += colorActual + "\n";
-    }
-    navigator.clipboard.writeText(textoParaCopiar).then(function() {
-        mostrarToast("¡Paleta copiada!");
-      });
+
+  animarPulso(botonCopiarPaleta);
+  let textoParaCopiar = generarTextoPaletaActual();
+
+  navigator.clipboard.writeText(textoParaCopiar).then(function() {
+      mostrarToast("¡Paleta copiada!");
+  });
 });
 
 function cantidadRender(cantidad) {
