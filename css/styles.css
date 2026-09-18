@@ -38,7 +38,7 @@ button {
 
 @keyframes animacionBoton {
   0% {
-    background-color: var(--color-primario--muy-claro);
+    background-color: var(--color-primario-muy-claro);
   }
   50% {
     background-color: var(--color-primario-claro);
@@ -97,8 +97,8 @@ button {
   left: 50%;
   transform: translateX(-50%);
   margin-top: 0.5rem;
-  background-color: white;
-  color: black;
+  background-color: var(--color-primario-muy-claro);
+  color: var(--color-primario-oscuro);
   border: 1px solid var(--color-primario-oscuro);
   font-size: 0.6rem;
   padding: 0.3rem 0.6rem;
@@ -122,6 +122,7 @@ button {
   background-color: var(--color-primario-muy-claro);
   font-size: 1rem;
   padding: 0.1rem 0.1rem;
+  border: 1px solid var(--color-primario-oscuro);
   border-radius: 5px;
   white-space: nowrap;
   opacity: 0;
@@ -138,15 +139,16 @@ button {
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
-  background-color: var(--color-primario-claro);
-  color: white;
+  background-color: var(--color-primario-muy-claro);
+  color: var(--color-primario-oscuro);
+  border: 1px solid var(--color-primario-oscuro);
   padding: 0.2rem 0.4rem;
-  border-radius: 4px;
+  border-radius: 5px;
   top: 0.8rem;
   left: 50%;
   transform: translateX(-70%);
   white-space: nowrap;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
 }
 
 .tooltip-copiar.mostrar {
