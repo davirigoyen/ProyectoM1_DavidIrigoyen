@@ -264,14 +264,11 @@ for (let boton of botonConColor) {
     tooltipCopiar.classList.add("mostrar");
     setTimeout(function() {
       tooltipCopiar.classList.remove("mostrar");
-    }, 1000);
+    }, 800);
   });
 
   boton.addEventListener("mouseout", function() {
-
   tooltip.classList.remove("mostrar");
-  tooltipCopiar.classList.remove("mostrar");
-
   });
 } 
 
