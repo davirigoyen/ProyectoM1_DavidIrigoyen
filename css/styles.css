@@ -134,3 +134,23 @@ button {
 .tooltip-unblock.mostrar {
   opacity: 1;
 }
+
+.tooltip-copiar {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  background-color: var(--color-primario-oscuro);
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.75rem;
+}
+
+.tooltip-copiar.mostrar {
+  opacity: 1;
+}
