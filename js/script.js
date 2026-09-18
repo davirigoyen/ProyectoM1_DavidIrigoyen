@@ -433,7 +433,7 @@ function renderizarPaletasGuardadas() {
     evento.stopPropagation();
 
     paletasGuardadas.splice(indice, 1);
-
+    guardarPaletasEnStorage();
     renderizarPaletasGuardadas();
 
     mostrarToast("¡Paleta eliminada!");
