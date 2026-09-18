@@ -26,4 +26,5 @@
   font-size: var(--espaciado-md2);
   color: var(--color-primario-2);
   font-weight:lighter;
+  margin-bottom: var(--espaciado-lg);
 }
