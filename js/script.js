@@ -209,6 +209,27 @@ function generarTextoPaletaActual() {
   return texto;
 }
 
+function exportarPaletaActual() {
+  let contenido = generarTextoPaletaActual();
+  let archivo = new Blob([contenido], {
+        type: "text/plain"
+      }
+    );
+
+  let url = URL.createObjectURL(archivo);
+
+  let enlace = document.createElement("a");
+
+  enlace.href = url;
+  enlace.download = modoHsl ? "paleta-hsl.txt" : "paleta-hex.txt";
+
+  enlace.click();
+
+  URL.revokeObjectURL(
+    url
+  );
+}
+
 for (let boton of botonConColor) {
 
   boton.addEventListener("click", function() {
