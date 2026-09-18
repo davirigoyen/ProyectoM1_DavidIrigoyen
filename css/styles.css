@@ -54,9 +54,8 @@ button {
 
 .toast {
   position: fixed;
-  bottom: 3.7rem;
-  left: 33%;
-  transform: translateX(-50%);
+  bottom: var(--toast-bottom);
+  left: var(--toast-left);
   background-color: var(--color-primario-claro);
   color: white;
   padding: 0.5rem 1rem;
