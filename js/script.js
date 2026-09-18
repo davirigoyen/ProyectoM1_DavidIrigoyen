@@ -20,6 +20,11 @@ const toast = document.getElementById("toast");
 
 const botonGuardarPaleta = document.querySelector(".btn-guardar-paleta");
 let paletasGuardadas = [];
+
+function guardarPaletasEnStorage() {
+  localStorage.setItem("paletasGuardadas", JSON.stringify(paletasGuardadas));
+}
+
 const botonPaletas = document.querySelector(".btn-paletas");
 const desplegablePaletas = document.querySelector(".desplegable-paletas");
 const botonCopiarPaleta =document.querySelector(".btn-copiar-paleta");
