@@ -252,16 +252,25 @@ for (let boton of botonConColor) {
   tooltip.classList.add("tooltip-color");
   boton.appendChild(tooltip);
 
+  let tooltipCopiar = document.createElement("span");
+  tooltipCopiar.classList.add("tooltip-copiar");
+  tooltipCopiar.textContent ="Copiar color";
+  boton.appendChild(tooltipCopiar);
+
   boton.addEventListener("mouseover", function() {
     let colorMostrado = modoHsl ? boton.getAttribute("data-hsl") : boton.getAttribute("data-hex");
     tooltip.textContent = colorMostrado;
     tooltip.classList.add("mostrar");
+    tooltipCopiar.classList.add("mostrar");
   });
 
   boton.addEventListener("mouseout", function() {
-    tooltip.classList.remove("mostrar");
+
+  tooltip.classList.remove("mostrar");
+  tooltipCopiar.classList.remove("mostrar");
+
   });
-}
+} 
 
 for (let boton of botonConColor) {
   let tooltipUnblock = document.createElement("span");
@@ -343,14 +352,16 @@ function renderizarPaletasGuardadas() {
     filaPaleta.classList.add("fila-paleta-guardada");
 
     let botonPaletaGuardada = document.createElement("button");
-    
+    botonPaletaGuardada.title = "Copiar paleta";
     botonPaletaGuardada.classList.add("paleta-guardada");
 
     let botonEliminar = document.createElement("button");
+    botonEliminar.title = "Eliminar paleta";
     botonEliminar.textContent = "\u00D7";
     botonEliminar.classList.add("btn-eliminar-paleta");
     
     let botonRestaurar = document.createElement("button");
+    botonRestaurar.title = "Restaurar paleta";
     botonRestaurar.textContent = "\u21BA";
     botonRestaurar.classList.add("btn-restaurar-paleta");
 
