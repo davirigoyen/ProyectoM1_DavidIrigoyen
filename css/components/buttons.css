@@ -31,7 +31,6 @@ button {
 
 .btn-generar:hover {
   transform: translateY(2px);
-  /*box-shadow: 5px 5px 9px var(--color-primario-oscuro);*/
 }
 
 .btn-exportar-paleta {
@@ -132,9 +131,6 @@ button {
   padding: var(--espaciado-sm);
   font-size: calc(var(--font-boton) / 1.1);
 }
-
-
-
 
 .desplegable-paletas {
   display: none;
