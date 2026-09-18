@@ -2,6 +2,7 @@
   width: 98%;
   max-width: 100rem;
   margin: 0 auto;
+  margin-top: var(--espaciado-lg);
 }
 
 .contenido-principal {
