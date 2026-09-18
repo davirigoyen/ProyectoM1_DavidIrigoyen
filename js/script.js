@@ -262,6 +262,9 @@ for (let boton of botonConColor) {
     tooltip.textContent = colorMostrado;
     tooltip.classList.add("mostrar");
     tooltipCopiar.classList.add("mostrar");
+    setTimeout(function() {
+      tooltipCopiar.classList.remove("mostrar");
+    }, 1000);
   });
 
   boton.addEventListener("mouseout", function() {
