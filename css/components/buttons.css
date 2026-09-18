@@ -14,6 +14,11 @@ button {
   padding: var(--espaciado-sm);
 }
 
+.btn-copiar-paleta:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 9px var(--color-primario);
+}
+
 .btn-generar {
   width: calc(var(--ancho-boton) * 1.2);
   height: calc(var(--ancho-boton) * 0.34);
@@ -22,6 +27,11 @@ button {
   box-shadow: 4px 4px 8px var(--color-primario);
   transition: 1.5s;
   font-size: var(--espaciado-mdx);
+}
+
+.btn-generar:hover {
+  transform: translateY(2px);
+  /*box-shadow: 5px 5px 9px var(--color-primario-oscuro);*/
 }
 
 .btn-exportar-paleta {
@@ -33,6 +43,11 @@ button {
   transition: 1.5s;
   font-size: calc(var(--font-boton) / 1.1);
   padding: var(--espaciado-sm);
+}
+
+.btn-exportar-paleta:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 9px var(--color-primario);
 }
 
 .area-botones {
@@ -101,6 +116,11 @@ button {
   padding: var(--espaciado-sm);
 }
 
+.btn-guardar-paleta:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 9px var(--color-primario);
+}
+
 .btn-paletas {
   width: calc(var(--ancho-boton) * 1.4);
   min-height: calc(var(--ancho-boton) * 0.25);
@@ -112,6 +132,9 @@ button {
   padding: var(--espaciado-sm);
   font-size: calc(var(--font-boton) / 1.1);
 }
+
+
+
 
 .desplegable-paletas {
   display: none;
