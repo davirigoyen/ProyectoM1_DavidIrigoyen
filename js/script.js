@@ -463,16 +463,7 @@ function renderizarPaletasGuardadas() {
 
       evento.stopPropagation();
 
-      for (let boton of botonConColor) {
-        boton.setAttribute("data-bloqueado","false");
-        
-        let tooltipUnblock =boton.querySelector(".tooltip-unblock");
-
-        if (tooltipUnblock) {
-          tooltipUnblock.textContent ="\u{1F513}";
-          tooltipUnblock.classList.remove("mostrar");
-        }
-      }
+      desbloquearTodosLosBotones();
 
       cantidadRender(paleta.length);
       
