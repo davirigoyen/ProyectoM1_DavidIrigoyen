@@ -84,7 +84,7 @@
   display: flex;
   gap: var(--espaciado-md);
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   margin-left: var(--gap-boton);
   font-size: small;
   color: var(--color-primario);
