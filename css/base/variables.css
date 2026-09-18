@@ -30,4 +30,6 @@
 
   --toast-bottom: clamp(1rem, 2.5vh, 2.5rem);
   --toast-left: clamp(1rem, 2vw, 2rem);
+
+  --offset-desplegable-paletas: 115%;
 }
