@@ -182,9 +182,13 @@ boton9.addEventListener("click", function() {
   boton9.style.backgroundColor = colorPrimarioClaro;
 })
 
+cargarPaletasDesdeStorage();
+renderizarPaletasGuardadas();
 pintarBotonesHsl();
 botonHsl.style.backgroundColor = colorPrimarioClaro;
 boton9.style.backgroundColor = colorPrimarioClaro;
+
+
 
 
 function animarPulso(elemento) {
