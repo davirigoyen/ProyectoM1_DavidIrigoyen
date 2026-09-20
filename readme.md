@@ -297,7 +297,7 @@ A continuación se muestra el flujo de uso de la aplicación:
 
 ### Gif demostrativo
 
-¡[Flujo de la App] (./docs/flujo-app.gif "Flujo de la APP")
+![Flujo de la App](./docs/flujo-app.gif "Flujo de la APP")
 
 ### Funcionalidades mostradas
 
