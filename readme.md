@@ -42,8 +42,9 @@ La aplicación permite:
 
 Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link:
 
-🔗 **Acceso a la aplicación:**  
-https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
+🔗 **Acceso a la aplicación:**
+
+<a href="https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/" target="_blank" rel="noopener noreferrer">https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/</a>
 
 ---
 
