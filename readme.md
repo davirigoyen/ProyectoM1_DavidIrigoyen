@@ -22,7 +22,7 @@ La aplicación permite:
 ## 📋 Índice
 
 - [📖 Descripción](#descripcion)
-- [🌐 Deploy](#deploy)
+- [🌐 Aplicación en línea](#aplicacion-en-linea)
 - [🚀 Instrucciones de uso](#instrucciones-de-uso)
 - [💻 Ejecución local](#ejecucion-local)
 - [📦 Despliegue](#despliegue)
@@ -38,11 +38,11 @@ La aplicación permite:
 
 ---
 
-## <a id= "deploy"></a>🌐 Deploy
+## <a id= "aplicacion-en-linea"></a>🌐 Aplicación en línea
 
 Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link:
 
-🔗 **Deploy:**  
+🔗 **Acceso a la aplicación:**  
 https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 ---
