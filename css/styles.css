@@ -10,31 +10,6 @@ html {
   font-size: 100%;
 }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: var(--espaciado-md);
-  line-height: var(--espaciado-mdx);
-  color: var(--color-primario-oscuro);
-  background-color: var(--color-primario-muy-claro);
-}
-
-h2 {
-  margin: 0;
-}
-
-a,
-a:visited,
-a:active {
-  text-decoration: none;
-  color: var(--color-primario-oscuro);
-}
-
-h2,
-p,
-button {
-  color: var(--color-primario-oscuro);
-}
-
 @keyframes animacionBoton {
   0% {
     background-color: var(--color-primario-muy-claro);

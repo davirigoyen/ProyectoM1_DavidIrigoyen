@@ -33,6 +33,16 @@
   align-items:center;
 }
 
+.area-botones {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 98%;
+  align-items: center;
+  margin: 0 auto;
+  padding: var(--espaciado-md);
+}
+
 .aside {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
