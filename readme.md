@@ -23,13 +23,7 @@ La aplicación permite:
 Puedes acceder a la aplicación desde:
 
 🔗 **Deploy:**  
-[Agregar aquí la URL del deploy]
-
-Ejemplo:
-
-```text
-https://usuario.github.io/palette/
-```
+https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 ---
 
@@ -48,21 +42,43 @@ https://usuario.github.io/palette/
 
 ---
 
-### Ejecución local
+## 💻 Ejecución local
 
-Clonar el repositorio:
+### Requisitos previos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+- Git
+- Un navegador moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.)
+- Visual Studio Code (opcional, recomendado)
+
+---
+
+### 1. Clonar el repositorio
+
+Abrir una terminal y ejecutar:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git clone https://github.com/davirigoyen/ProyectoM1_DavidIrigoyen.git
 ```
 
-Ingresar al directorio:
+---
+
+### 2. Ingresar al directorio del proyecto
 
 ```bash
-cd TU_REPOSITORIO
+cd ProyectoM1_DavidIrigoyen
 ```
 
-Abrir el archivo:
+---
+
+### 3. Abrir el proyecto
+
+Puedes abrir el proyecto de dos maneras:
+
+#### Opción A: Abrir directamente el archivo principal
+
+Localizar y abrir:
 
 ```text
 index.html
@@ -70,8 +86,59 @@ index.html
 
 con cualquier navegador moderno.
 
-También puede ejecutarse utilizando la extensión Live Server de Visual Studio Code.
+---
 
+#### Opción B: Utilizar Visual Studio Code
+
+Abrir Visual Studio Code y seleccionar:
+
+```text
+Archivo → Abrir carpeta
+```
+
+Luego elegir la carpeta:
+
+```text
+ProyectoM1_DavidIrigoyen
+```
+
+---
+
+### 4. Ejecutar con Live Server (recomendado)
+
+Instalar la extensión:
+
+```text
+Live Server
+```
+
+desde el Marketplace de Visual Studio Code.
+
+Luego:
+
+1. Abrir el archivo `index.html`.
+2. Hacer clic derecho sobre el archivo.
+3. Seleccionar:
+
+```text
+Open with Live Server
+```
+
+El proyecto se abrirá automáticamente en el navegador predeterminado.
+
+---
+
+### 5. Verificar el funcionamiento
+
+Una vez abierto el proyecto, deberían visualizarse:
+
+- Los botones de generación de colores.
+- El selector de formato HSL / HEX.
+- El selector de cantidad de colores.
+- Los botones para guardar, copiar y exportar paletas.
+- El sistema de paletas guardadas.
+
+La aplicación está lista para utilizarse sin necesidad de instalar dependencias adicionales.
 ---
 
 ## 📦 Despliegue
