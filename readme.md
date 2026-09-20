@@ -1,6 +1,6 @@
 # 🎨 Palette
 
-## 📖 Descripción
+## 📖 <a id= "descripcion"></a> Descripción
 
 Palette es una aplicación web interactiva para la generación, exploración y gestión de paletas de colores.
 
@@ -17,10 +17,27 @@ La aplicación permite:
 - Desbloquear todos los colores previamente bloqueados, tanto individualmente como en su totalidad.
 - Persistir las paletas guardadas mediante LocalStorage.
 
+---
+
+## 📋 Índice
+
+- [📖 Descripción](#descripcion)
+- [🌐 Deploy](#deploy)
+- [🚀 Instrucciones de uso](#instrucciones-de-uso)
+- [💻 Ejecución local](#ejecucion-local)
+- [📦 Despliegue](#despliegue)
+- [⚙️ Decisiones técnicas](#decisiones-tecnicas)
+- [🔮 Mejoras futuras](#mejoras-futuras)
+- [🤖 Uso de Inteligencia Artificial](#uso-de-inteligencia-artificial)
+- [🎥 Flujo completo de la aplicación](#flujo-completo-de-la-aplicacion)
+- [🛠️ Tecnologías utilizadas](#tecnologias-utilizadas)
+- [👨‍💻 Autor](#autor)
+- [📄 Licencia](#licencia)
+
 
 ---
 
-## 🌐 Deploy
+## <a id= "deploy"></a>🌐 Deploy
 
 Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link:
 
@@ -29,7 +46,7 @@ https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 ---
 
-## 🚀 Instrucciones de uso
+## <a id= "instrucciones-de-uso"></a>🚀 Instrucciones de uso
 
 ### Uso desde el navegador
 
@@ -44,7 +61,7 @@ https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 ---
 
-## 💻 Ejecución local
+## <a id= "ejecucion-local"></a> 💻 Ejecución local
 
 ### Requisitos previos
 
@@ -143,7 +160,7 @@ Una vez abierto el proyecto, deberían visualizarse:
 La aplicación está lista para utilizarse sin necesidad de instalar dependencias adicionales.
 ---
 
-## 📦 Despliegue
+## <a id= "despliegue"></a>📦 Despliegue
 
 ### GitHub Pages
 
@@ -172,7 +189,7 @@ Folder: /root
 
 ---
 
-## ⚙️ Decisiones técnicas
+## <a id= "decisiones-tecnicas"></a>⚙️ Decisiones técnicas
 
 ### Diseño responsive
 
@@ -225,27 +242,27 @@ como fuente principal del estado de bloqueo de cada color.
 
 ---
 
-## 🔮 Mejoras futuras
+## <a id= "mejoras-futuras"></a>🔮 Mejoras futuras
 
 ### Funcionalidades previstas
 
-- [ ] Extender su producción responsive a celulares y tablets.
-- [ ] Revisar maquetado HTML y CSS para mejorar la aplicación según las mejores prácticas profesionales de desarrollo.
-- [ ] Revisar y mejorar la accesibilidad en todos los detalles de la aplicación.
-- [ ] Agregar validación de HTML.
-- [ ] Compartir paletas mediante URL.
-- [ ] Sistema de etiquetas para clasificar paletas.
-- [ ] Búsqueda dentro de las paletas guardadas.
-- [ ] Historial de generaciones anteriores.
-- [ ] Modo oscuro.
-- [ ] Animaciones avanzadas para interfaces y transiciones.
-- [ ] Exportación de paletas en formato JSON para que otro programa la lea más facil y directamente.
-- [ ] Exportación de paletas directa a variables CSS para que otro desarrollador pueda reutilizarlas directamente en su proyecto.
-- [ ] Exportación de paletas a formato Adobe ASE para mejorar interrelación con productos Adobe para diseñadores.
+- Extender su producción responsive a celulares y tablets.
+- Revisar maquetado HTML y CSS para mejorar la aplicación según las mejores prácticas profesionales de desarrollo.
+- Revisar y mejorar la accesibilidad en todos los detalles de la aplicación.
+- Agregar validación de HTML.
+- Compartir paletas mediante URL.
+- Sistema de etiquetas para clasificar paletas.
+- Búsqueda dentro de las paletas guardadas.
+- Historial de generaciones anteriores.
+- Modo oscuro.
+- Animaciones avanzadas para interfaces y transiciones.
+- Exportación de paletas en formato JSON para que otro programa la lea más facil y directamente.
+- Exportación de paletas directa a variables CSS para que otro desarrollador pueda reutilizarlas directamente en su proyecto.
+- Exportación de paletas a formato Adobe ASE para mejorar interrelación con productos Adobe para diseñadores.
 
 ---
 
-## 🤖 Uso de Inteligencia Artificial
+## <a id= "uso-de-inteligencia-artifical"></a>🤖 Uso de Inteligencia Artificial
 
 ### Herramientas utilizadas
 
@@ -291,11 +308,11 @@ Descripción del impacto en el proyecto.
 
 ---
 
-## 🎥 Flujo completo de la aplicación
+## <a id= "flujo-completo-de-la-aplicacion"></a>🎥 Flujo completo de la aplicación
 
 A continuación se muestra el flujo de uso de la aplicación:
 
-### Gif demostrativo
+### [Gif demostrativo](./docs/flujo-app.gif)
 
 ![Flujo de la App](./docs/flujo-app.gif "Flujo de la APP")
 
@@ -314,7 +331,7 @@ A continuación se muestra el flujo de uso de la aplicación:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## <a id= "tecnologias-utilizadas"></a> 🛠️ Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -325,15 +342,15 @@ A continuación se muestra el flujo de uso de la aplicación:
 
 ---
 
-## 👨‍💻 Autor
+## <a id= "autor"></a>👨‍💻 Autor
 
 **David Irigoyen**
 
-- GitHub: [https://github.com/davirigoyen]
-- LinkedIn: [https://www.linkedin.com/in/davidairigoyen/]
+- [GitHub](https://github.com/davirigoyen)
+- [LinkedIn](https://www.linkedin.com/in/davidairigoyen/)
 
 ---
 
-## 📄 Licencia
+## <a id= "licencia"></a>📄 Licencia
 
 Este proyecto fue desarrollado con fines educativos y de formación profesional.
