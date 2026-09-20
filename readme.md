@@ -267,8 +267,6 @@ Todas las decisiones finales de implementación, integración y validación fuer
 
 ### Capturas de prompts relevantes
 
-Agregar en esta sección las capturas de pantalla requeridas por la consigna.
-
 #### Prompt 1
 
 ./documentacion/prompt-1.png
@@ -331,8 +329,8 @@ A continuación se muestra el flujo de uso de la aplicación:
 
 **David Irigoyen**
 
-- GitHub: [Agregar perfil]
-- LinkedIn: [Agregar perfil]
+- GitHub: [https://github.com/davirigoyen]
+- LinkedIn: [https://www.linkedin.com/in/davidairigoyen/]
 
 ---
 
