@@ -26,25 +26,6 @@ html {
   animation: animacionBoton 1.3s ease-in-out;
 }
 
-.toast {
-  position: fixed;
-  bottom: var(--toast-bottom);
-  left: var(--toast-left);
-  background-color: var(--color-primario-claro);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 10px;
-  font-size: 0.65rem;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  z-index: 100;
-}
-
-.toast.mostrar {
-  opacity: 1;
-}
-
 .sombra-izquierda,
 .sombra-derecha {
   position: fixed;
@@ -63,68 +44,4 @@ html {
 .sombra-derecha {
   right: 0;
   background: linear-gradient(to left,hsl(220, 30%, 70%), transparent);
-}
-
-.tooltip-color {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 0.5rem;
-  background-color: var(--color-primario-muy-claro);
-  color: var(--color-primario-oscuro);
-  border: 1px solid var(--color-primario-oscuro);
-  font-size: 0.6rem;
-  padding: 0.3rem 0.6rem;
-  border-radius: 5px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-}
-
-.tooltip-color.mostrar {
-  opacity: 1;
-}
-
-.tooltip-unblock {
-  position: absolute;
-  top: 5%;
-  left: 84%;
-  transform: translateX(-50%);
-  margin-top: 0.1rem;
-  background-color: var(--color-primario-muy-claro);
-  font-size: 1rem;
-  padding: 0.1rem 0.1rem;
-  border: 1px solid var(--color-primario-oscuro);
-  border-radius: 5px;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: auto;
-  transition: opacity 0.2s ease;
-}
-
-.tooltip-unblock.mostrar {
-  opacity: 1;
-}
-
-.tooltip-copiar {
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-  background-color: var(--color-primario-muy-claro);
-  color: var(--color-primario-oscuro);
-  border: 1px solid var(--color-primario-oscuro);
-  padding: 0.2rem 0.4rem;
-  border-radius: 5px;
-  top: 0.8rem;
-  left: 50%;
-  transform: translateX(-70%);
-  white-space: nowrap;
-  font-size: 0.6rem;
-}
-
-.tooltip-copiar.mostrar {
-  opacity: 1;
 }
