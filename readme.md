@@ -297,7 +297,7 @@ A continuación se muestra el flujo de uso de la aplicación:
 
 ### Gif demostrativo
 
-./documentacion/flujo-app.gif
+./docs/flujo-app.gif
 
 ### Funcionalidades mostradas
 
