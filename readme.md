@@ -213,17 +213,19 @@ La aplicación permite exportar la paleta actual como archivo descargable genera
 
 ### Funcionalidades previstas
 
-- [ ] Exportación en formato JSON.
-- [ ] Exportación directa a variables CSS.
-- [ ] Exportación a formato Adobe ASE.
+- [ ] Extender su producción responsive a celulares y tablets.
+- [ ] Revisar maquetado HTML y CSS para mejorar la aplicación según las mejores prácticas profesionales de desarrollo.
+- [ ] Revisar y mejorar la accesibilidad en todos los detalles de la aplicación.
+- [ ] Agregar validación de HTML.
 - [ ] Compartir paletas mediante URL.
 - [ ] Sistema de etiquetas para clasificar paletas.
 - [ ] Búsqueda dentro de las paletas guardadas.
 - [ ] Historial de generaciones anteriores.
 - [ ] Modo oscuro.
 - [ ] Animaciones avanzadas para interfaces y transiciones.
-
-> Completar esta sección con las mejoras ya planificadas para el proyecto.
+- [ ] Exportación de paletas en formato JSON para que otro programa la lea más facil y directamente.
+- [ ] Exportación de paletas directa a variables CSS para que otro desarrollador pueda reutilizarlas directamente en su proyecto.
+- [ ] Exportación de paletas a formato Adobe ASE para mejorar interrelación con productos Adobe para diseñadores.
 
 ---
 
