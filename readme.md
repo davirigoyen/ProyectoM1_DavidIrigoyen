@@ -7,20 +7,22 @@ Palette es una aplicación web interactiva para la generación, exploración y g
 La aplicación permite:
 
 - Generar paletas aleatorias en formatos HSL y HEX.
-- Copiar colores individuales al portapapeles.
+- Elegir entre paletas de 6, 8 o 9 colores.
+- Copiar colores individuales al portapapeles según el formato elegido (HSL o HEX).
 - Copiar la paleta completa.
+- Guardar hasta 5 paletas favoritas.
+- Restaurar paletas previamente guardadas.
 - Exportar la paleta actual como archivo descargable.
 - Bloquear colores específicos para mantenerlos entre generaciones.
-- Guardar paletas favoritas.
-- Restaurar paletas previamente guardadas.
+- Desbloquear todos los colores previamente bloqueados, tanto individualmente como en su totalidad.
 - Persistir las paletas guardadas mediante LocalStorage.
-- Elegir entre paletas de 6, 8 o 9 colores.
+
 
 ---
 
 ## 🌐 Deploy
 
-Puedes acceder a la aplicación desde:
+Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link:
 
 🔗 **Deploy:**  
 https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
