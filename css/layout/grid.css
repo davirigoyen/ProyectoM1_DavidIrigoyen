@@ -10,7 +10,7 @@
   grid-template-rows: auto auto auto;
 }
 
-.section-generar {
+.seccion-generar {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   max-width: 100rem;
