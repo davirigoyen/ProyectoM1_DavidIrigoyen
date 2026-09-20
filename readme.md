@@ -28,7 +28,7 @@ La aplicación permite:
 - [📦 Despliegue](#despliegue)
 - [⚙️ Decisiones técnicas](#decisiones-tecnicas)
 - [🔮 Mejoras futuras](#mejoras-futuras)
-- [🤖 Uso de Inteligencia Artificial](#uso-de-inteligencia-artificial)
+- [🤖 Uso de Inteligencia Artificial](#uso-de-ia)
 - [🎥 Flujo completo de la aplicación](#flujo-completo-de-la-aplicacion)
 - [🛠️ Tecnologías utilizadas](#tecnologias-utilizadas)
 - [👨‍💻 Autor](#autor)
@@ -262,7 +262,7 @@ como fuente principal del estado de bloqueo de cada color.
 
 ---
 
-## <a id= "uso-de-inteligencia-artifical"></a>🤖 Uso de Inteligencia Artificial
+## <a id= "uso-de-ia"></a> 🤖 Uso de Inteligencia Artificial
 
 ### Herramientas utilizadas
 
