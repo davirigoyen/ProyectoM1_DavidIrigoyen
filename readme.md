@@ -26,11 +26,11 @@ La aplicación permite:
 - [🚀 Instrucciones de uso](#instrucciones-de-uso)
 - [💻 Ejecución local](#ejecucion-local)
 - [📦 Despliegue](#despliegue)
+- [🎥 Flujo completo de la aplicación](#flujo-completo-de-la-aplicacion)
+- [🛠️ Tecnologías utilizadas](#tecnologias-utilizadas)
 - [⚙️ Decisiones técnicas](#decisiones-tecnicas)
 - [🔮 Mejoras futuras](#mejoras-futuras)
 - [🤖 Uso de Inteligencia Artificial](#uso-de-ia)
-- [🎥 Flujo completo de la aplicación](#flujo-completo-de-la-aplicacion)
-- [🛠️ Tecnologías utilizadas](#tecnologias-utilizadas)
 - [✅ Validaciones](#-validaciones)
 - [👨‍💻 Autor](#autor)
 - [📄 Licencia](#licencia)
@@ -159,6 +159,7 @@ Una vez abierto el proyecto, deberían visualizarse:
 - El sistema de paletas guardadas.
 
 La aplicación está lista para utilizarse sin necesidad de instalar dependencias adicionales.
+
 ---
 
 ## <a id= "despliegue"></a>📦 Despliegue
@@ -187,6 +188,40 @@ Folder: /root
 5. Guardar la configuración.
 6. Esperar la publicación automática.
 7. Acceder a la URL generada por GitHub Pages.
+
+---
+
+## <a id= "flujo-completo-de-la-aplicacion"></a>🎥 Flujo completo de la aplicación
+
+A continuación se muestra el flujo de uso de la aplicación:
+
+### [Gif demostrativo](./docs/flujo-app.gif)
+
+![Flujo de la App](./docs/flujo-app.gif "Flujo de la App")
+
+### Funcionalidades mostradas
+
+- Generación de paletas.
+- Cambio entre HSL y HEX.
+- Bloqueo y desbloqueo de colores.
+- Copia de colores.
+- Copia de paletas.
+- Guardado de paletas.
+- Restauración de paletas.
+- Eliminación de paletas.
+- Exportación de paletas.
+- Persistencia mediante LocalStorage.
+
+---
+
+## <a id= "tecnologias-utilizadas"></a> 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Git
+- GitHub
+- GitHub Pages
 
 ---
 
@@ -356,40 +391,6 @@ Prompt que ayudó a la conversión matemática de Hsl a Hex y viceversa que sirv
 ![Prompt8a](./docs/prompt-8-a.png)
 
 Prompt que ayudó a resolver un bug grave y que posteriormente sirvió para resolver otros bugs que se fueron detectando en la última etapa de producción de la aplicación.
-
----
-
-## <a id= "flujo-completo-de-la-aplicacion"></a>🎥 Flujo completo de la aplicación
-
-A continuación se muestra el flujo de uso de la aplicación:
-
-### [Gif demostrativo](./docs/flujo-app.gif)
-
-![Flujo de la App](./docs/flujo-app.gif "Flujo de la App")
-
-### Funcionalidades mostradas
-
-- Generación de paletas.
-- Cambio entre HSL y HEX.
-- Bloqueo y desbloqueo de colores.
-- Copia de colores.
-- Copia de paletas.
-- Guardado de paletas.
-- Restauración de paletas.
-- Eliminación de paletas.
-- Exportación de paletas.
-- Persistencia mediante LocalStorage.
-
----
-
-## <a id= "tecnologias-utilizadas"></a> 🛠️ Tecnologías utilizadas
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Git
-- GitHub
-- GitHub Pages
 
 ---
 
