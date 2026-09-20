@@ -18,7 +18,7 @@ body {
   background-color: var(--color-primario-muy-claro);
 }
 
-h3 {
+h2 {
   margin: 0;
 }
 
@@ -30,7 +30,6 @@ a:active {
 }
 
 h2,
-h3,
 p,
 button {
   color: var(--color-primario-oscuro);
