@@ -56,12 +56,9 @@
   position: relative;
 }
 
-.titulo-terciario {
+.titulo-secundario {
+  font-size: var(--font-boton);
   margin-bottom: calc(var(--gap-boton) * 1.1);
-}
-
-.titulo-secundario,
-.titulo-terciario {
   text-shadow: 0.5px 0.5px 0.5px var(--color-primario-2);
 }
 
