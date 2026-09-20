@@ -308,11 +308,53 @@ Prompt inicial para empezar el trabajo de randomización de colores en JavaScrip
 
 ---
 
-#### Prompt 3
+#### [Prompt 3](./docs/prompt-3.png)
 
-./documentacion/prompt-3.png
+![Prompt3](./docs/prompt-3.png)
 
-Descripción del impacto en el proyecto.
+Prompt que ayudó a consolidar los modos HSL y HEX en el código de Java Script para el correcto funcionamento de la renderización y randomización de los colores dependiendo el formato elegido por el usuario.
+
+---
+
+#### [Prompt 4](./docs/prompt-4.png)
+
+![Prompt4](./docs/prompt-4.png)
+
+Prompt que ayudó a consolidar correctamente la relación entre las funciones y las variables. También ayudó a comprender la utilización del array para recorrer una lista de elementos al llamar a una clase, lo cual sirvió como guía para escribir el resto del código.
+
+---
+
+#### [Prompt 5](./docs/prompt-5.png)
+
+![Prompt5](./docs/prompt-5.png)
+
+Prompt que ayudó a comprender y codificar el correcto responsiveness en Desktop de la Aplicación utilizando unidades como vw y vh.
+
+---
+
+#### [Prompt 6](./docs/prompt-6.png)
+
+![Prompt6](./docs/prompt-6.png)
+
+Prompt que ayudó a comprender el scope de las variables fuera de sus funciones y el desarrollo en el proyecto de los atributos html data-* en JavaScript que son la piedra angular de la arquitectura del código.
+
+---
+
+#### [Prompt 7](./docs/prompt-7.png)
+
+![Prompt7](./docs/prompt-7.png)
+![Prompt7a](./docs/prompt-7-a.png)
+
+Prompt que ayudó a la conversión matemática de Hsl a Hex y viceversa que sirvió en todo el proyecto para distintas funcionalidades.
+
+---
+
+#### [Prompt 8](./docs/prompt-8.png)
+
+![Prompt8](./docs/prompt-8.png)
+![Prompt8a](./docs/prompt-8-a.png)
+
+Prompt que ayudó a resolver un bug grave y que posteriormente sirvió para resolver otros bugs que se fueron detectando en la última etapa de producción de la aplicación.
 
 ---
 
