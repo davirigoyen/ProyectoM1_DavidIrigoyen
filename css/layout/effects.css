@@ -1,0 +1,19 @@
+.sombra-izquierda,
+.sombra-derecha {
+  position: fixed;
+  top: 0;
+  width: 2vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.sombra-izquierda {
+  left: 0;
+  background: linear-gradient(to right, hsl(220, 30%, 70%), transparent);
+}
+
+.sombra-derecha {
+  right: 0;
+  background: linear-gradient(to left,hsl(220, 30%, 70%), transparent);
+}
