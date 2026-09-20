@@ -364,7 +364,7 @@ Prompt que ayudó a consolidar correctamente la relación entre las funciones y 
 
 ![Prompt5](./docs/prompt-5.png)
 
-Prompt que ayudó a comprender y codificar el correcto responsiveness en Desktop de la Aplicación utilizando unidades como vw y vh.
+Prompt que ayudó a comprender y codificar el correcto responsiveness en Desktop de la Aplicación utilizando unidades relativas como vw y vh.
 
 ---
 
