@@ -40,11 +40,11 @@ La aplicación permite:
 
 ## <a id= "aplicacion-en-linea"></a>🌐 Aplicación en línea
 
-Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link:
+Puedes acceder a la aplicación desde cualquier navegador a partir del siguiente link: https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 🔗 **Acceso a la aplicación:**
 
-<a href="https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/" target="_blank" rel="noopener noreferrer">https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/</a>
+<a href="https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/" target="_blank" rel="noopener noreferrer">ProyectoM1_DavidIrigoyen</a>
 
 ---
 
