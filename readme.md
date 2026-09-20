@@ -185,13 +185,33 @@ Se utilizaron unidades relativas como:
 
 para lograr una correcta adaptación a diferentes resoluciones.
 
+### Uso de variables para unidades
+
+Se utilizaron variables integramente en todo el proyecto para que todas las unidades sean reutilizables en todo el proyecto y sean de utilidad para las mejoras futuras y de escalado de la aplicación.
+
+### Validación CSS
+
+Se incluyó en el proyecto el acceso a la validación CSS del mismo por parte de W3C.
+
+### Restauración de Paletas guardadas
+
+Se incluyó la funcionalidad de restauración de las paletas guardadas al render principal de la aplicación para que el usuario pueda reutilizarla para modificarla o exportarla directamente.
+
 ### Persistencia local
 
 Se implementó LocalStorage para mantener las paletas guardadas entre sesiones sin necesidad de backend.
 
-### Sistema de bloqueo
+### Sistema de desbloqueo
 
-Los colores pueden bloquearse individualmente para impedir su modificación durante la generación de nuevas paletas.
+Los colores de la paleta renderizada pueden desbloquearse todos al mismo tiempo para no tener que hacerlo en cada uno de los colores individualmente y así mejorar la velocidad en la interactividad de la aplicación para el usuario.
+
+### Funciones en Java Script
+
+Se utilizaron dos funciones principales y separadas de randomización de colores (una para HSL y otra para HEX) como núcleo de toda la lógica de JavaScript.
+
+### Exportación
+
+La aplicación permite exportar la paleta actual como archivo descargable generado desde el navegador.
 
 ### Gestión del estado
 
@@ -202,10 +222,6 @@ data-bloqueado
 ```
 
 como fuente principal del estado de bloqueo de cada color.
-
-### Exportación
-
-La aplicación permite exportar la paleta actual como archivo descargable generado desde el navegador.
 
 ---
 
