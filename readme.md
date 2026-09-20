@@ -31,6 +31,7 @@ La aplicación permite:
 - [🤖 Uso de Inteligencia Artificial](#uso-de-ia)
 - [🎥 Flujo completo de la aplicación](#flujo-completo-de-la-aplicacion)
 - [🛠️ Tecnologías utilizadas](#tecnologias-utilizadas)
+- [✅ Validaciones](#-validaciones)
 - [👨‍💻 Autor](#autor)
 - [📄 Licencia](#licencia)
 
@@ -389,6 +390,38 @@ A continuación se muestra el flujo de uso de la aplicación:
 - Git
 - GitHub
 - GitHub Pages
+
+---
+
+## <a id= "validaciones"></a> ✅ Validaciones
+
+Durante el desarrollo del proyecto se realizaron validaciones periódicas para verificar el cumplimiento de los estándares web y detectar posibles problemas de semántica, accesibilidad y sintaxis.
+
+#### Validación HTML
+
+La validación del marcado HTML se realizó utilizando el servicio oficial de W3C:
+
+https://validator.w3.org/nu/
+
+##### [Captura de validación HTML](./docs/validacion-html.png)
+
+![ValidacionHtml](./docs/validacion-html.png)
+
+Se corrigieron errores de semántica en la utilización de las etiquetas: section, h2 y h3.
+
+---
+
+#### Validación CSS
+
+La validación de las hojas de estilo se realizó utilizando el servicio oficial de W3C:
+
+https://jigsaw.w3.org/css-validator/
+
+##### [Captura de validación CSS](./docs/validacion-css.png)
+
+![ValidacionCSS](./docs/validacion-css.png)
+
+Se utilizó para chequear posibles errores de estilos en Css, aunque no se encontraron en los distintos chequeos durante la producción.
 
 ---
 
