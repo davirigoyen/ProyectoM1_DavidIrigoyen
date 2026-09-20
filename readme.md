@@ -300,7 +300,15 @@ como fuente principal del estado de bloqueo de cada color.
 
 ## <a id= "uso-de-ia"></a> 🤖 Uso de Inteligencia Artificial
 
-### Herramientas utilizadas
+### Inteligencias artificiales utilizadas
+
+Durante el desarrollo del proyecto se utilizaron las siguientes Inteligencias Artificiales dependiendo de la asistencia requerida:
+
+- Claude
+- Google Gemini
+- Copilot
+
+### Herramientas
 
 Durante el desarrollo del proyecto se emplearon herramientas de Inteligencia Artificial como apoyo para:
 
@@ -311,14 +319,6 @@ Durante el desarrollo del proyecto se emplearon herramientas de Inteligencia Art
 - Generación de propuestas arquitectónicas.
 - Mejora de la accesibilidad.
 - Revisión y validación de decisiones técnicas.
-
-### Inteligencias artificiales utilizadas
-
-Durante el desarrollo del proyecto se utilizaron las siguientes Inteligencias Artificiales dependiendo de la asistencia requerida:
-
-- Claude
-- Google Gemini
-- Copilot
 
 ### Tipo de asistencia recibida
 
