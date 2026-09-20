@@ -276,6 +276,14 @@ Durante el desarrollo del proyecto se emplearon herramientas de Inteligencia Art
 - Mejora de la accesibilidad.
 - Revisión y validación de decisiones técnicas.
 
+### Inteligencias artificiales utilizadas
+
+Durante el desarrollo del proyecto se utilizaron las siguientes Inteligencias Artificiales dependiendo de la asistencia requerida:
+
+- Claude
+- Google Gemini
+- Copilot
+
 ### Tipo de asistencia recibida
 
 La IA se utilizó como herramienta de apoyo técnico y consulta.
@@ -284,19 +292,19 @@ Todas las decisiones finales de implementación, integración y validación fuer
 
 ### Capturas de prompts relevantes
 
-#### Prompt 1
+#### [Prompt 1](./docs/prompt-1.png)
 
-./documentacion/prompt-1.png
+![Prompt1](./docs/prompt-1.png)
 
-Descripción del impacto en el proyecto.
+Prompt inicial para obtener respuesta sobre las buenas prácticas de maquetado HTML. Fue útil para organizar desde el inicio la estructura HTML de modo correcto y ordenado.
 
 ---
 
-#### Prompt 2
+#### [Prompt 2](./docs/prompt-2.png)
 
-./documentacion/prompt-2.png
+![Prompt2](./docs/prompt-2.png)
 
-Descripción del impacto en el proyecto.
+Prompt inicial para empezar el trabajo de randomización de colores en JavaScript. La respuesta obtenida ayudó a consolidar las funciones principales de obtención de colores aleatoria en las funciones de HSL y HEX.
 
 ---
 
