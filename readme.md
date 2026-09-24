@@ -52,7 +52,7 @@ https://davirigoyen.github.io/ProyectoM1_DavidIrigoyen/
 
 ### Uso desde el navegador
 
-1. Acceder al enlace de deploy.
+1. Acceder al enlace de la Aplicación en línea.
 2. Generar una nueva paleta mediante el botón correspondiente.
 3. Seleccionar formato HSL o HEX.
 4. Copiar colores individuales haciendo click sobre ellos.
@@ -247,9 +247,21 @@ Se utilizaron variables integramente en todo el proyecto para que todas las unid
 
 Se incluyó en el proyecto el acceso a la validación CSS del mismo por parte de W3C.
 
+### Sombreado para UX
+
+Se utilizaron sombreados más oscuros para darle mayor relevacia a algunos botones y otros más claros para botones con jerarquía inferior.
+
+### Renderización en una sola fila
+
+Se priorizó la renderización de los colores en una sola fila sin importar su tamaño (6, 8 o 9).
+
 ### Restauración de Paletas guardadas
 
 Se incluyó la funcionalidad de restauración de las paletas guardadas al render principal de la aplicación para que el usuario pueda reutilizarla para modificarla o exportarla directamente.
+
+### Botón Generar en el centro
+
+Se centró el botón Generar en el medio de la ventana para darle mayor jerarquía visual para mejor UX.
 
 ### Persistencia local
 
