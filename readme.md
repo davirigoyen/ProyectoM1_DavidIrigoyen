@@ -290,6 +290,7 @@ como fuente principal del estado de bloqueo de cada color.
 - Compartir paletas mediante URL.
 - Sistema de etiquetas para clasificar paletas.
 - Búsqueda dentro de las paletas guardadas.
+- Agregar botón para exportar sólo los colores bloqueados.
 - Historial de generaciones anteriores.
 - Modo oscuro.
 - Animaciones avanzadas para interfaces y transiciones.
